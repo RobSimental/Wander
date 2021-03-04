@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{07c1e8b1-43d2-4a2a-8822-5ce8197041ed}">
+		<property name="name">
+			<value>Menu Heat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{03408c5f-dbf5-478f-9e00-de989e6c608b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7c5d35c1-4ee2-426d-8bfb-23361b566871}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7c5d35c1-4ee2-426d-8bfb-23361b566871}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

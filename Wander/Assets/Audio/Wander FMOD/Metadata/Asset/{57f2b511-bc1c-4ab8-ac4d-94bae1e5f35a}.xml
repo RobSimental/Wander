@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{57f2b511-bc1c-4ab8-ac4d-94bae1e5f35a}">
+		<property name="assetPath">
+			<value>Music/Boss Music-20200511T224123Z-001/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{100e35dd-61a0-4675-a77d-97958d618c2e}</destination>
+		</relationship>
+	</object>
+</objects>

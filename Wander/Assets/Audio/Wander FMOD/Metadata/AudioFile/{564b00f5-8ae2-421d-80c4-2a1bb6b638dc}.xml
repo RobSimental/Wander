@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{564b00f5-8ae2-421d-80c4-2a1bb6b638dc}">
+		<property name="assetPath">
+			<value>Level sounds/Level sounds/Environment/Forrest/Wander_SFX_crow - Trimmed.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{100e35dd-61a0-4675-a77d-97958d618c2e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GameServer",
+            "request": "launch",
+            "mainClass": "core.GameServer",
+            "projectName": "WoB_Server_Basic_6f0167bc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GameServer<WoB_Server_Basic_5f396b2f>",
+            "request": "launch",
+            "mainClass": "core.GameServer",
+            "projectName": "WoB_Server_Basic_5f396b2f"
+        }
+    ]
+}

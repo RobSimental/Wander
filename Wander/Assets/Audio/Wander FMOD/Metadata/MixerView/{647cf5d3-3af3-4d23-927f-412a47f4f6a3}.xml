@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="UiMixerView" id="{647cf5d3-3af3-4d23-927f-412a47f4f6a3}">
+		<property name="name">
+			<value>Cave</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{5e460375-6860-4d26-bc05-b17708e2e3b6}</destination>
+			<destination>{b8f640c5-4494-421e-9de2-2229aac4c77e}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{cd274e66-3ed1-4176-84e9-dd738edf7eff}</destination>
+		</relationship>
+	</object>
+</objects>

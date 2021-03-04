@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{cb95affa-d646-4fa6-8b54-acc005bd8811}">
+		<property name="name">
+			<value>Forest Heat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{03408c5f-dbf5-478f-9e00-de989e6c608b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d209723e-ac39-4fdb-931c-b4a1cf9a4d6b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d209723e-ac39-4fdb-931c-b4a1cf9a4d6b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.50000005960464478</value>
+		</property>
+	</object>
+</objects>

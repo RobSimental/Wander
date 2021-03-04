@@ -1,0 +1,4417 @@
+fileFormatVersion: 2
+guid: d810a6bfd07cdc44e9300aeac0b35c9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Retrocade PC_0
+  - first:
+      213: 21300002
+    second: Retrocade PC_1
+  - first:
+      213: 21300004
+    second: Retrocade PC_2
+  - first:
+      213: 21300006
+    second: Retrocade PC_3
+  - first:
+      213: 21300008
+    second: Retrocade PC_4
+  - first:
+      213: 21300010
+    second: Retrocade PC_5
+  - first:
+      213: 21300012
+    second: Retrocade PC_6
+  - first:
+      213: 21300014
+    second: Retrocade PC_7
+  - first:
+      213: 21300016
+    second: Retrocade PC_8
+  - first:
+      213: 21300018
+    second: Retrocade PC_9
+  - first:
+      213: 21300020
+    second: Retrocade PC_10
+  - first:
+      213: 21300022
+    second: Retrocade PC_11
+  - first:
+      213: 21300024
+    second: Retrocade PC_12
+  - first:
+      213: 21300026
+    second: Retrocade PC_13
+  - first:
+      213: 21300028
+    second: Retrocade PC_14
+  - first:
+      213: 21300030
+    second: Retrocade PC_15
+  - first:
+      213: 21300032
+    second: Retrocade PC_16
+  - first:
+      213: 21300034
+    second: Retrocade PC_17
+  - first:
+      213: 21300036
+    second: Retrocade PC_18
+  - first:
+      213: 21300038
+    second: Retrocade PC_19
+  - first:
+      213: 21300040
+    second: Retrocade PC_20
+  - first:
+      213: 21300042
+    second: Retrocade PC_21
+  - first:
+      213: 21300044
+    second: Retrocade PC_22
+  - first:
+      213: 21300046
+    second: Retrocade PC_23
+  - first:
+      213: 21300048
+    second: Retrocade PC_24
+  - first:
+      213: 21300050
+    second: Retrocade PC_25
+  - first:
+      213: 21300052
+    second: Retrocade PC_26
+  - first:
+      213: 21300054
+    second: Retrocade PC_27
+  - first:
+      213: 21300056
+    second: Retrocade PC_28
+  - first:
+      213: 21300058
+    second: Retrocade PC_29
+  - first:
+      213: 21300060
+    second: Retrocade PC_30
+  - first:
+      213: 21300062
+    second: Retrocade PC_31
+  - first:
+      213: 21300064
+    second: Retrocade PC_32
+  - first:
+      213: 21300066
+    second: Retrocade PC_33
+  - first:
+      213: 21300068
+    second: Retrocade PC_34
+  - first:
+      213: 21300070
+    second: Retrocade PC_35
+  - first:
+      213: 21300072
+    second: Retrocade PC_36
+  - first:
+      213: 21300074
+    second: Retrocade PC_37
+  - first:
+      213: 21300076
+    second: Retrocade PC_38
+  - first:
+      213: 21300078
+    second: Retrocade PC_39
+  - first:
+      213: 21300080
+    second: Retrocade PC_40
+  - first:
+      213: 21300082
+    second: Retrocade PC_41
+  - first:
+      213: 21300084
+    second: Retrocade PC_42
+  - first:
+      213: 21300086
+    second: Retrocade PC_43
+  - first:
+      213: 21300088
+    second: Retrocade PC_44
+  - first:
+      213: 21300090
+    second: Retrocade PC_45
+  - first:
+      213: 21300092
+    second: Retrocade PC_46
+  - first:
+      213: 21300094
+    second: Retrocade PC_47
+  - first:
+      213: 21300096
+    second: Retrocade PC_48
+  - first:
+      213: 21300098
+    second: Retrocade PC_49
+  - first:
+      213: 21300100
+    second: Retrocade PC_50
+  - first:
+      213: 21300102
+    second: Retrocade PC_51
+  - first:
+      213: 21300104
+    second: Retrocade PC_52
+  - first:
+      213: 21300106
+    second: Retrocade PC_53
+  - first:
+      213: 21300108
+    second: Retrocade PC_54
+  - first:
+      213: 21300110
+    second: Retrocade PC_55
+  - first:
+      213: 21300112
+    second: Retrocade PC_56
+  - first:
+      213: 21300114
+    second: Retrocade PC_57
+  - first:
+      213: 21300116
+    second: Retrocade PC_58
+  - first:
+      213: 21300118
+    second: Retrocade PC_59
+  - first:
+      213: 21300120
+    second: Retrocade PC_60
+  - first:
+      213: 21300122
+    second: Retrocade PC_61
+  - first:
+      213: 21300124
+    second: Retrocade PC_62
+  - first:
+      213: 21300126
+    second: Retrocade PC_63
+  - first:
+      213: 21300128
+    second: Retrocade PC_64
+  - first:
+      213: 21300130
+    second: Retrocade PC_65
+  - first:
+      213: 21300132
+    second: Retrocade PC_66
+  - first:
+      213: 21300134
+    second: Retrocade PC_67
+  - first:
+      213: 21300136
+    second: Retrocade PC_68
+  - first:
+      213: 21300138
+    second: Retrocade PC_69
+  - first:
+      213: 21300140
+    second: Retrocade PC_70
+  - first:
+      213: 21300142
+    second: Retrocade PC_71
+  - first:
+      213: 21300144
+    second: Retrocade PC_72
+  - first:
+      213: 21300146
+    second: Retrocade PC_73
+  - first:
+      213: 21300148
+    second: Retrocade PC_74
+  - first:
+      213: 21300150
+    second: Retrocade PC_75
+  - first:
+      213: 21300152
+    second: Retrocade PC_76
+  - first:
+      213: 21300154
+    second: Retrocade PC_77
+  - first:
+      213: 21300156
+    second: Retrocade PC_78
+  - first:
+      213: 21300158
+    second: Retrocade PC_79
+  - first:
+      213: 21300160
+    second: Retrocade PC_80
+  - first:
+      213: 21300162
+    second: Retrocade PC_81
+  - first:
+      213: 21300164
+    second: Retrocade PC_82
+  - first:
+      213: 21300166
+    second: Retrocade PC_83
+  - first:
+      213: 21300168
+    second: Retrocade PC_84
+  - first:
+      213: 21300170
+    second: Retrocade PC_85
+  - first:
+      213: 21300172
+    second: Retrocade PC_86
+  - first:
+      213: 21300174
+    second: Retrocade PC_87
+  - first:
+      213: 21300176
+    second: Retrocade PC_88
+  - first:
+      213: 21300178
+    second: Retrocade PC_89
+  - first:
+      213: 21300180
+    second: Retrocade PC_90
+  - first:
+      213: 21300182
+    second: Retrocade PC_91
+  - first:
+      213: 21300184
+    second: Retrocade PC_92
+  - first:
+      213: 21300186
+    second: Retrocade PC_93
+  - first:
+      213: 21300188
+    second: Retrocade PC_94
+  - first:
+      213: 21300190
+    second: Retrocade PC_95
+  - first:
+      213: 21300192
+    second: Retrocade PC_96
+  - first:
+      213: 21300194
+    second: Retrocade PC_97
+  - first:
+      213: 21300196
+    second: Retrocade PC_98
+  - first:
+      213: 21300198
+    second: Retrocade PC_99
+  - first:
+      213: 21300200
+    second: Retrocade PC_100
+  - first:
+      213: 21300202
+    second: Retrocade PC_101
+  - first:
+      213: 21300204
+    second: Retrocade PC_102
+  - first:
+      213: 21300206
+    second: Retrocade PC_103
+  - first:
+      213: 21300208
+    second: Retrocade PC_104
+  - first:
+      213: 21300210
+    second: Retrocade PC_105
+  - first:
+      213: 21300212
+    second: Retrocade PC_106
+  - first:
+      213: 21300214
+    second: Retrocade PC_107
+  - first:
+      213: 21300216
+    second: Retrocade PC_108
+  - first:
+      213: 21300218
+    second: Retrocade PC_109
+  - first:
+      213: 21300220
+    second: Retrocade PC_110
+  - first:
+      213: 21300222
+    second: Retrocade PC_111
+  - first:
+      213: 21300224
+    second: Retrocade PC_112
+  - first:
+      213: 21300226
+    second: Retrocade PC_113
+  - first:
+      213: 21300228
+    second: Retrocade PC_114
+  - first:
+      213: 21300230
+    second: Retrocade PC_115
+  - first:
+      213: 21300232
+    second: Retrocade PC_116
+  - first:
+      213: 21300234
+    second: Retrocade PC_117
+  - first:
+      213: 21300236
+    second: Retrocade PC_118
+  - first:
+      213: 21300238
+    second: Retrocade PC_119
+  - first:
+      213: 21300240
+    second: Retrocade PC_120
+  - first:
+      213: 21300242
+    second: Retrocade PC_121
+  - first:
+      213: 21300244
+    second: Retrocade PC_122
+  - first:
+      213: 21300246
+    second: Retrocade PC_123
+  - first:
+      213: 21300248
+    second: Retrocade PC_124
+  - first:
+      213: 21300250
+    second: Retrocade PC_125
+  - first:
+      213: 21300252
+    second: Retrocade PC_126
+  - first:
+      213: 21300254
+    second: Retrocade PC_127
+  - first:
+      213: 21300256
+    second: Retrocade PC_128
+  - first:
+      213: 21300258
+    second: Retrocade PC_129
+  - first:
+      213: 21300260
+    second: Retrocade PC_130
+  - first:
+      213: 21300262
+    second: Retrocade PC_131
+  - first:
+      213: 21300264
+    second: Retrocade PC_132
+  - first:
+      213: 21300266
+    second: Retrocade PC_133
+  - first:
+      213: 21300268
+    second: Retrocade PC_134
+  - first:
+      213: 21300270
+    second: Retrocade PC_135
+  - first:
+      213: 21300272
+    second: Retrocade PC_136
+  - first:
+      213: 21300274
+    second: Retrocade PC_137
+  - first:
+      213: 21300276
+    second: Retrocade PC_138
+  - first:
+      213: 21300278
+    second: Retrocade PC_139
+  - first:
+      213: 21300280
+    second: Retrocade PC_140
+  - first:
+      213: 21300282
+    second: Retrocade PC_141
+  - first:
+      213: 21300284
+    second: Retrocade PC_142
+  - first:
+      213: 21300286
+    second: Retrocade PC_143
+  - first:
+      213: 21300288
+    second: Retrocade PC_144
+  - first:
+      213: 21300290
+    second: Retrocade PC_145
+  - first:
+      213: 21300292
+    second: Retrocade PC_146
+  - first:
+      213: 21300294
+    second: Retrocade PC_147
+  - first:
+      213: 21300296
+    second: Retrocade PC_148
+  - first:
+      213: 21300298
+    second: Retrocade PC_149
+  - first:
+      213: 21300300
+    second: Retrocade PC_150
+  - first:
+      213: 21300302
+    second: Retrocade PC_151
+  - first:
+      213: 21300304
+    second: Retrocade PC_152
+  - first:
+      213: 21300306
+    second: Retrocade PC_153
+  - first:
+      213: 21300308
+    second: Retrocade PC_154
+  - first:
+      213: 21300310
+    second: Retrocade PC_155
+  - first:
+      213: 21300312
+    second: Retrocade PC_156
+  - first:
+      213: 21300314
+    second: Retrocade PC_157
+  - first:
+      213: 21300316
+    second: Retrocade PC_158
+  - first:
+      213: 21300318
+    second: Retrocade PC_159
+  - first:
+      213: 21300320
+    second: Retrocade PC_160
+  - first:
+      213: 21300322
+    second: Retrocade PC_161
+  - first:
+      213: 21300324
+    second: Retrocade PC_162
+  - first:
+      213: 3686386391319539796
+    second: Retrocade PC_0
+  - first:
+      213: -4202624877215482391
+    second: Retrocade PC_2
+  - first:
+      213: 3531041453772172092
+    second: Retrocade PC_5
+  - first:
+      213: 4033178219970990059
+    second: Retrocade PC_7
+  - first:
+      213: -4638688913834188965
+    second: Retrocade PC_11
+  - first:
+      213: 7263593652055425468
+    second: Retrocade PC_13
+  - first:
+      213: 7753853698606291651
+    second: Retrocade PC_16
+  - first:
+      213: -3878588419394130794
+    second: Retrocade PC_19
+  - first:
+      213: 6255378324891001583
+    second: Retrocade PC_20
+  - first:
+      213: -374004963716334287
+    second: Retrocade PC_21
+  - first:
+      213: 1731244834571820700
+    second: Retrocade PC_22
+  - first:
+      213: 7045893027981379909
+    second: Retrocade PC_23
+  - first:
+      213: -4478433955079696653
+    second: Retrocade PC_24
+  - first:
+      213: 112211899562154210
+    second: Retrocade PC_25
+  - first:
+      213: -6228770921209804621
+    second: Retrocade PC_26
+  - first:
+      213: -5783637168803066869
+    second: Retrocade PC_27
+  - first:
+      213: -108655260949745634
+    second: Retrocade PC_28
+  - first:
+      213: -6154672722390209094
+    second: Retrocade PC_29
+  - first:
+      213: 4501969913540817276
+    second: Retrocade PC_30
+  - first:
+      213: 7728517338524260354
+    second: Retrocade PC_31
+  - first:
+      213: -8573176453364280998
+    second: Retrocade PC_32
+  - first:
+      213: -908718529832511415
+    second: Retrocade PC_33
+  - first:
+      213: 2466947857490725918
+    second: Retrocade PC_34
+  - first:
+      213: 1648019707837728664
+    second: Retrocade PC_35
+  - first:
+      213: -5221465043935487101
+    second: Retrocade PC_36
+  - first:
+      213: -3939603809231916971
+    second: Retrocade PC_37
+  - first:
+      213: 5509347348630390968
+    second: Retrocade PC_38
+  - first:
+      213: -6455741728568998597
+    second: Retrocade PC_39
+  - first:
+      213: 9132804594237657472
+    second: Retrocade PC_40
+  - first:
+      213: 1538652893886263881
+    second: Retrocade PC_41
+  - first:
+      213: -1492732832529095605
+    second: Retrocade PC_42
+  - first:
+      213: -3840589251713788440
+    second: Retrocade PC_43
+  - first:
+      213: 8385881749412626165
+    second: Retrocade PC_44
+  - first:
+      213: -1429474357552367540
+    second: Retrocade PC_45
+  - first:
+      213: 6302348161554183046
+    second: Retrocade PC_46
+  - first:
+      213: -9146560370802043521
+    second: Retrocade PC_47
+  - first:
+      213: 6510063149608530584
+    second: Retrocade PC_48
+  - first:
+      213: -6579087916552738239
+    second: Retrocade PC_49
+  - first:
+      213: -3728123295682282763
+    second: Retrocade PC_50
+  - first:
+      213: -2505966159007898993
+    second: Retrocade PC_51
+  - first:
+      213: -8168499710178795728
+    second: Retrocade PC_52
+  - first:
+      213: -6088095938427533855
+    second: Retrocade PC_53
+  - first:
+      213: -1963730774136303288
+    second: Retrocade PC_54
+  - first:
+      213: 2663894828642416519
+    second: Retrocade PC_55
+  - first:
+      213: 1547391667426393203
+    second: Retrocade PC_56
+  - first:
+      213: -4692203087953901434
+    second: Retrocade PC_57
+  - first:
+      213: -3690600832829886459
+    second: Retrocade PC_58
+  - first:
+      213: 8134472751857612817
+    second: Retrocade PC_59
+  - first:
+      213: -7635890157306824446
+    second: Retrocade PC_60
+  - first:
+      213: -282257582710082832
+    second: Retrocade PC_61
+  - first:
+      213: 5551283663886476917
+    second: Retrocade PC_62
+  - first:
+      213: 2678242385043217758
+    second: Retrocade PC_63
+  - first:
+      213: 1466197317666985146
+    second: Retrocade PC_64
+  - first:
+      213: -3896827045198573906
+    second: Retrocade PC_65
+  - first:
+      213: 4557876524309527997
+    second: Retrocade PC_66
+  - first:
+      213: -8973734219189969062
+    second: Retrocade PC_67
+  - first:
+      213: -3518363850578923198
+    second: Retrocade PC_68
+  - first:
+      213: -7554916790337332351
+    second: Retrocade PC_69
+  - first:
+      213: 5088593819245130744
+    second: Retrocade PC_70
+  - first:
+      213: -4937114243590171524
+    second: Retrocade PC_74
+  - first:
+      213: -2236487048207378393
+    second: Retrocade PC_77
+  - first:
+      213: -7607341781431598730
+    second: Retrocade PC_79
+  - first:
+      213: -9059683570223828255
+    second: Retrocade PC_80
+  - first:
+      213: -7319899077422875889
+    second: Retrocade PC_82
+  - first:
+      213: -4253475566974574254
+    second: Retrocade PC_85
+  - first:
+      213: -2030576451475134037
+    second: Retrocade PC_87
+  - first:
+      213: -3051410735239051024
+    second: Retrocade PC_91
+  - first:
+      213: -8373809477073271159
+    second: Retrocade PC_93
+  - first:
+      213: -4377488478173611469
+    second: Retrocade PC_96
+  - first:
+      213: 3746075022286895130
+    second: Retrocade PC_99
+  - first:
+      213: 1063597327410819572
+    second: Retrocade PC_100
+  - first:
+      213: -1898503005816258602
+    second: Retrocade PC_101
+  - first:
+      213: -2512036571036998345
+    second: Retrocade PC_102
+  - first:
+      213: -3567475931108659580
+    second: Retrocade PC_103
+  - first:
+      213: 7302802888763678794
+    second: Retrocade PC_104
+  - first:
+      213: -8820325191704308647
+    second: Retrocade PC_105
+  - first:
+      213: -3353845562557247271
+    second: Retrocade PC_106
+  - first:
+      213: 5910298148720126667
+    second: Retrocade PC_107
+  - first:
+      213: 4573078706585899025
+    second: Retrocade PC_108
+  - first:
+      213: 5236425450626573030
+    second: Retrocade PC_109
+  - first:
+      213: 6594206508143752566
+    second: Retrocade PC_110
+  - first:
+      213: 289992367708555116
+    second: Retrocade PC_111
+  - first:
+      213: -3547461355621136447
+    second: Retrocade PC_112
+  - first:
+      213: -1699542348492118881
+    second: Retrocade PC_113
+  - first:
+      213: 428244756950351515
+    second: Retrocade PC_114
+  - first:
+      213: 5493618754521800893
+    second: Retrocade PC_115
+  - first:
+      213: -2900866795318178730
+    second: Retrocade PC_116
+  - first:
+      213: 1746401388181946863
+    second: Retrocade PC_117
+  - first:
+      213: -297873127814973005
+    second: Retrocade PC_118
+  - first:
+      213: -1320304199587293525
+    second: Retrocade PC_119
+  - first:
+      213: 3993009518460329909
+    second: Retrocade PC_120
+  - first:
+      213: 1076634675132289717
+    second: Retrocade PC_121
+  - first:
+      213: -9058422462280642082
+    second: Retrocade PC_122
+  - first:
+      213: -2057573789414493208
+    second: Retrocade PC_123
+  - first:
+      213: 6452208221544351771
+    second: Retrocade PC_124
+  - first:
+      213: 5159525493777113243
+    second: Retrocade PC_125
+  - first:
+      213: 7151197741676755356
+    second: Retrocade PC_126
+  - first:
+      213: 722069875387619083
+    second: Retrocade PC_127
+  - first:
+      213: -4514593781769394884
+    second: Retrocade PC_128
+  - first:
+      213: 739762603127822931
+    second: Retrocade PC_129
+  - first:
+      213: -3896762263982007546
+    second: Retrocade PC_130
+  - first:
+      213: 3587069320716224700
+    second: Retrocade PC_131
+  - first:
+      213: 8263410498506345672
+    second: Retrocade PC_132
+  - first:
+      213: -2826773405385677700
+    second: Retrocade PC_133
+  - first:
+      213: -3261064078950175858
+    second: Retrocade PC_134
+  - first:
+      213: -61475251530470520
+    second: Retrocade PC_135
+  - first:
+      213: -3662607040147801076
+    second: Retrocade PC_136
+  - first:
+      213: -6924276493702006600
+    second: Retrocade PC_137
+  - first:
+      213: 6890193627480096843
+    second: Retrocade PC_138
+  - first:
+      213: -3763092558069865471
+    second: Retrocade PC_139
+  - first:
+      213: 2175379524435170085
+    second: Retrocade PC_140
+  - first:
+      213: 5645477886291315498
+    second: Retrocade PC_141
+  - first:
+      213: 7747791745641412420
+    second: Retrocade PC_142
+  - first:
+      213: -8978875165246349917
+    second: Retrocade PC_143
+  - first:
+      213: 1818145758173773651
+    second: Retrocade PC_144
+  - first:
+      213: -2930688414610523325
+    second: Retrocade PC_145
+  - first:
+      213: -1124514039283253252
+    second: Retrocade PC_146
+  - first:
+      213: -6760771321521289720
+    second: Retrocade PC_147
+  - first:
+      213: 961512405184114448
+    second: Retrocade PC_148
+  - first:
+      213: 5317382262354410426
+    second: Retrocade PC_149
+  - first:
+      213: -3269773938204039988
+    second: Retrocade PC_150
+  - first:
+      213: 1112656610120007173
+    second: Retrocade PC_154
+  - first:
+      213: 2991252177254058810
+    second: Retrocade PC_157
+  - first:
+      213: 1605717286086820926
+    second: Retrocade PC_159
+  - first:
+      213: 5238090153447857243
+    second: Retrocade PC_160
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Retrocade PC_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4507f6f34eca82330800000000000000
+      internalID: 3686386391319539796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf95dc0f64da5c0800000000000000
+      internalID: -4202624877215482391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 212
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3be4437e77c00130800000000000000
+      internalID: 3531041453772172092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef863de83ab8f730800000000000000
+      internalID: 4033178219970990059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fde5b720110afb0800000000000000
+      internalID: -4638688913834188965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1cb8f31f77dc460800000000000000
+      internalID: 7263593652055425468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad6c17bd83b9b60800000000000000
+      internalID: 7753853698606291651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca118d16c7c2ac0800000000000000
+      internalID: -3878588419394130794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe26ecea1719fc650800000000000000
+      internalID: 6255378324891001583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d747197744fcaf0800000000000000
+      internalID: -374004963716334287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e12e7210e960810800000000000000
+      internalID: 1731244834571820700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494b32d06a08c160800000000000000
+      internalID: 7045893027981379909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4d6dab0869d1c0800000000000000
+      internalID: -4478433955079696653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_25
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e859fcc028ae8100800000000000000
+      internalID: 112211899562154210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8c10e39d5fe89a0800000000000000
+      internalID: -6228770921209804621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 196
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c4fb353a46cbfa0800000000000000
+      internalID: -5783637168803066869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 181
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10fc18ad9afd7ef0800000000000000
+      internalID: -108655260949745634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_29
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 180
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd252194c5369aa0800000000000000
+      internalID: -6154672722390209094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71b81ea8c53a7e30800000000000000
+      internalID: 4501969913540817276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2089f2b6295314b60800000000000000
+      internalID: 7728517338524260354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a519a743075f50980800000000000000
+      internalID: -8573176453364280998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948948ccf459363f0800000000000000
+      internalID: -908718529832511415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c4525810c5c3220800000000000000
+      internalID: 2466947857490725918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_35
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897c2845131fed610800000000000000
+      internalID: 1648019707837728664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_36
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b1b110531a987b0800000000000000
+      internalID: -5221465043935487101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_37
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550b4fa5537b359c0800000000000000
+      internalID: -3939603809231916971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ca5b4932257c40800000000000000
+      internalID: 5509347348630390968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_39
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 182
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358af21a199866a0800000000000000
+      internalID: -6455741728568998597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_40
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081579a046d3ebe70800000000000000
+      internalID: 9132804594237657472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942b7b4a7a46a5510800000000000000
+      internalID: 1538652893886263881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 164
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b446a8cc56fb84be0800000000000000
+      internalID: -1492732832529095605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_43
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59a638c6c73bac0800000000000000
+      internalID: -3840589251713788440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_44
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5febb225503a06470800000000000000
+      internalID: 8385881749412626165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48bf8e35ac792ce0800000000000000
+      internalID: -1429474357552367540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683f54cf240767750800000000000000
+      internalID: 6302348161554183046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_47
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75dda5adc3e01180800000000000000
+      internalID: -9146560370802043521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_48
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 164
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f6c951f3685a50800000000000000
+      internalID: 6510063149608530584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_49
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a2fcbb56262b4a0800000000000000
+      internalID: -6579087916552738239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fabff17d9b034cc0800000000000000
+      internalID: -3728123295682282763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 164
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822f293e05093dd0800000000000000
+      internalID: -2505966159007898993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 164
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f59eacac8a3ae80800000000000000
+      internalID: -8168499710178795728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_53
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 164
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54787000db28ba0800000000000000
+      internalID: -6088095938427533855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8415a15e34d6fb4e0800000000000000
+      internalID: -1963730774136303288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_55
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7873b349b3e08f420800000000000000
+      internalID: 2663894828642416519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c7959e580797510800000000000000
+      internalID: 1547391667426393203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_57
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884480e622f1eeb0800000000000000
+      internalID: -4692203087953901434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_58
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500f96f981a58ccc0800000000000000
+      internalID: -3690600832829886459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_59
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11831999ed373e070800000000000000
+      internalID: 8134472751857612817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_60
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20933ddcb5ed70690800000000000000
+      internalID: -7635890157306824446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_61
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2b7675938351cf0800000000000000
+      internalID: -282257582710082832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_62
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 148
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576e161941f1a0d40800000000000000
+      internalID: 5551283663886476917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_63
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 148
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d55ee52470b2520800000000000000
+      internalID: 2678242385043217758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_64
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 149
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4db2231baf85410800000000000000
+      internalID: 1466197317666985146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_65
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 147
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaecdcbd270bbe9c0800000000000000
+      internalID: -3896827045198573906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdbf89dc84d04f30800000000000000
+      internalID: 4557876524309527997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f1a64c544e67380800000000000000
+      internalID: -8973734219189969062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_68
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241faaf08b24c2fc0800000000000000
+      internalID: -3518363850578923198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_69
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b1f44f43b872790800000000000000
+      internalID: -7554916790337332351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_70
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 132
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3ba5a3e115e9640800000000000000
+      internalID: 5088593819245130744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_71
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 132
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_73
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 133
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_74
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 133
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74594fd0c8db7bb0800000000000000
+      internalID: -4937114243590171524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_75
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 132
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 130
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_77
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 130
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72856da01e666f0e0800000000000000
+      internalID: -2236487048207378393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_78
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 130
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67148c884fa4d6690800000000000000
+      internalID: -7607341781431598730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2bd5b0bc9854280800000000000000
+      internalID: -9059683570223828255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_81
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_82
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bff72529e7a6a90800000000000000
+      internalID: -7319899077422875889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_83
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_84
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 100
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2516da9f18e98f4c0800000000000000
+      internalID: -4253475566974574254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_87
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba92d80d971f1d3e0800000000000000
+      internalID: -2030576451475134037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_89
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_90
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_91
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f843467a1637a5d0800000000000000
+      internalID: -3051410735239051024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_92
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_93
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9868f3e95a04acb80800000000000000
+      internalID: -8373809477073271159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_94
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab81a0c690043c0800000000000000
+      internalID: -4377488478173611469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_97
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_98
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_99
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18bf5d926bbcf330800000000000000
+      internalID: 3746075022286895130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f170645228a2ce00800000000000000
+      internalID: 1063597327410819572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_101
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df7f4d239927a5e0800000000000000
+      internalID: -1898503005816258602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_102
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ac884c04732dd0800000000000000
+      internalID: -2512036571036998345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_103
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e238dba87cd7ec0800000000000000
+      internalID: -3567475931108659580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_104
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a4711984c85560800000000000000
+      internalID: 7302802888763678794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_105
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954190168f8e79580800000000000000
+      internalID: -8820325191704308647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_106
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05144fa3fb471d0800000000000000
+      internalID: -3353845562557247271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_107
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 84
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaac172ad8950250800000000000000
+      internalID: 5910298148720126667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_108
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 69
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11094fbbad6d67f30800000000000000
+      internalID: 4573078706585899025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_109
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 68
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2696d14358ba840800000000000000
+      internalID: 5236425450626573030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_110
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6753a7da1e3538b50800000000000000
+      internalID: 6594206508143752566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_111
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67c7d0a582460400800000000000000
+      internalID: 289992367708555116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_112
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7c6cb31b2e4cec0800000000000000
+      internalID: -3547461355621136447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94e4651d330a68e0800000000000000
+      internalID: -1699542348492118881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_114
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef2f6665e61f500800000000000000
+      internalID: 428244756950351515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_115
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db022ba96214d3c40800000000000000
+      internalID: 5493618754521800893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_116
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c8554e40d0eb7d0800000000000000
+      internalID: -2900866795318178730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_117
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe185d94fc67c3810800000000000000
+      internalID: 1746401388181946863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_118
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9347ce7fdbddbf0800000000000000
+      internalID: -297873127814973005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_119
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 70
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6942463565dade0800000000000000
+      internalID: -1320304199587293525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_120
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd49c40050a6730800000000000000
+      internalID: 3993009518460329909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_121
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d0246889f0fe00800000000000000
+      internalID: 1076634675132289717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_122
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 52
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1d75e93c40a4280800000000000000
+      internalID: -9058422462280642082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_123
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e37bce3a870273e0800000000000000
+      internalID: -2057573789414493208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_124
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1881063139da8950800000000000000
+      internalID: 6452208221544351771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_125
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90282aa9115a9740800000000000000
+      internalID: 5159525493777113243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_126
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99f73715782e3360800000000000000
+      internalID: 7151197741676755356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_127
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075d79d9be450a00800000000000000
+      internalID: 722069875387619083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_128
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 52
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a274ffd0f851c0800000000000000
+      internalID: -4514593781769394884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_129
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a5d890b2a244a00800000000000000
+      internalID: 739762603127822931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_130
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b9439ed5bebe9c0800000000000000
+      internalID: -3896762263982007546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_131
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb80ef5ca84d7c130800000000000000
+      internalID: 3587069320716224700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_132
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc44b421188da270800000000000000
+      internalID: 8263410498506345672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_133
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74277f809845c8d0800000000000000
+      internalID: -2826773405385677700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_134
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b63608f7f5eb2d0800000000000000
+      internalID: -3261064078950175858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_135
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b6c0e9598952ff0800000000000000
+      internalID: -61475251530470520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_136
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c35246d4ecb2dc0800000000000000
+      internalID: -3662607040147801076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_137
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8fd42273708ef90800000000000000
+      internalID: -6924276493702006600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_138
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b408c9f2992ee9f50800000000000000
+      internalID: 6890193627480096843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_139
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1046453914fc6cbc0800000000000000
+      internalID: -3763092558069865471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_140
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523dd9dd620803e10800000000000000
+      internalID: 2175379524435170085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_141
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b87bff934c85e40800000000000000
+      internalID: 5645477886291315498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_142
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447f8a80b8fa58b60800000000000000
+      internalID: 7747791745641412420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_143
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 36
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad1aecfb90a46380800000000000000
+      internalID: -8978875165246349917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_144
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 37
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fb4d12fe95b3910800000000000000
+      internalID: 1818145758173773651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_145
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b79c31a6a1457d0800000000000000
+      internalID: -2930688414610523325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_146
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfff49f607ce460f0800000000000000
+      internalID: -1124514039283253252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_147
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806431d9d4aec22a0800000000000000
+      internalID: -6760771321521289720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_148
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f612e207af75d00800000000000000
+      internalID: 961512405184114448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_149
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf892bef22bc940800000000000000
+      internalID: 5317382262354410426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_150
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 20
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a48d5ded6f92d0800000000000000
+      internalID: -3269773938204039988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_151
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4405410000000000800000000000000
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_152
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_153
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 21
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_154
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7133ba43f07f00800000000000000
+      internalID: 1112656610120007173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_155
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_156
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_157
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b87d2c100138920800000000000000
+      internalID: 2991252177254058810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_158
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34c8ee3d57a84610800000000000000
+      internalID: 1605717286086820926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_160
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c1bb1fd3f61b840800000000000000
+      internalID: 5238090153447857243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Retrocade PC_161
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26405410000000000800000000000000
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f71e2672779bdfb42a813bd372b5653d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
