@@ -1,2 +1,2 @@
-# New-Game-1
+# Spring 2021
 2D medieval coop platformers
