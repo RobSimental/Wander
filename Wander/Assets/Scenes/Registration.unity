@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 233152490}
   - component: {fileID: 233152489}
   m_Layer: 5
-  m_Name: UserNameInput
+  m_Name: EmailInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281469331}
-        m_MethodName: VerifyInputs
-        m_Mode: 1
+      - m_Target: {fileID: 281469332}
+        m_MethodName: GetUserEmail
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -859,7 +859,7 @@ GameObject:
   - component: {fileID: 314528044}
   - component: {fileID: 314528043}
   m_Layer: 5
-  m_Name: UserNameText
+  m_Name: EmailText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ RectTransform:
   m_Children:
   - {fileID: 1884345341}
   m_Father: {fileID: 993079922}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1917,7 +1917,7 @@ RectTransform:
   - {fileID: 1741740084}
   - {fileID: 854713775}
   m_Father: {fileID: 993079922}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.30200002}
   m_AnchorMax: {x: 1, y: 0.5377249}
@@ -2076,7 +2076,18 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 281469332}
+        m_MethodName: GetConfirmPassword
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2382,11 +2393,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.23, y: 1.23, z: 1.23}
   m_Children:
+  - {fileID: 998409917}
   - {fileID: 1961653396}
   - {fileID: 1197573703}
   - {fileID: 749461375}
   - {fileID: 480590627}
-  - {fileID: 998409917}
   m_Father: {fileID: 281469330}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2463,7 +2474,7 @@ RectTransform:
   - {fileID: 370815997}
   - {fileID: 2043954796}
   m_Father: {fileID: 993079922}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.7687126}
   m_AnchorMax: {x: 1, y: 1}
@@ -2588,7 +2599,7 @@ RectTransform:
   - {fileID: 1209681025}
   - {fileID: 1921990408}
   m_Father: {fileID: 993079922}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5377249}
   m_AnchorMax: {x: 1, y: 0.7687126}
@@ -3958,9 +3969,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281469331}
-        m_MethodName: VerifyInputs
-        m_Mode: 1
+      - m_Target: {fileID: 281469332}
+        m_MethodName: GetUserPassword
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4105,7 +4116,7 @@ RectTransform:
   - {fileID: 314528042}
   - {fileID: 233152488}
   m_Father: {fileID: 993079922}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.7687126}
   m_AnchorMax: {x: 1, y: 1}
@@ -4348,9 +4359,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281469331}
-        m_MethodName: VerifyInputs
-        m_Mode: 1
+      - m_Target: {fileID: 281469332}
+        m_MethodName: GetUsername
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
