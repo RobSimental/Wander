@@ -10,7 +10,7 @@ using TMPro;
 
 public class PlayFabLogin : NetworkBehaviour
 {
-
+    //todo probably shouldnt save passwords locally since not secure, but allows for easier development
     public GameObject emailInput;
     public GameObject passwordInput;
     private TMP_InputField emailTextField;

@@ -34,7 +34,10 @@ public class PlayFabRegistration : MonoBehaviour
     }
     public void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
-        Debug.Log("User created");
+        Debug.Log("User created"); 
+        //save info for faster login
+        PlayerPrefs.SetString("EMAIL", userEmail);
+        PlayerPrefs.SetString("PASSWORD", userPassword);
         SceneManager.LoadScene("Login");
     }
     public void OnRegisterFailure(PlayFabError error)
