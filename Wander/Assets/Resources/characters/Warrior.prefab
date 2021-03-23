@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 7455110231077151657}
   - component: {fileID: 6047168310943482849}
   - component: {fileID: 8331518039515688305}
+  - component: {fileID: 4038967871407869159}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Player
@@ -456,6 +457,20 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   attacking: 0
+--- !u!114 &4038967871407869159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608401443960460184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34fa7082a0213be4aaa0bc2a6dc9348e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
 --- !u!1 &2245468053457926101
 GameObject:
   m_ObjectHideFlags: 0
