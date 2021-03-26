@@ -18,6 +18,11 @@ public class PlayFabRegistration : MonoBehaviour
             PlayFabSettings.TitleId = "23BBA";
         }
     }
+    public void OnClickLoadLogin()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Cancel");
+        SceneManager.LoadScene("Login");
+    }
     public void OnClickRegister()
     {
         if (userPassword.Equals(confirmPassword))
@@ -38,10 +43,12 @@ public class PlayFabRegistration : MonoBehaviour
         //save info for faster login
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
         SceneManager.LoadScene("Login");
     }
     public void OnRegisterFailure(PlayFabError error)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Password Incorrect");
         Debug.Log(error.GenerateErrorReport());
     }
 

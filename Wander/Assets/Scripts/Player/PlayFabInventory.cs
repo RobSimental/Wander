@@ -6,6 +6,7 @@ using PlayFab.ClientModels;
 using PlayFab.ServerModels;
 using Mirror;
 
+
 public class PlayFabInventory : NetworkBehaviour
 {
        //todo potions need to heal player
@@ -17,6 +18,7 @@ public class PlayFabInventory : NetworkBehaviour
     public override void OnStartAuthority()
     {
         CmdSessionTicket(PlayFabLogin.sessionTicket);
+        GetInventory();
     }
     [Command]
     private void CmdSessionTicket(string sTicket)
@@ -24,15 +26,17 @@ public class PlayFabInventory : NetworkBehaviour
         PlayFabServerAPI.AuthenticateSessionTicket(new AuthenticateSessionTicketRequest { SessionTicket = sTicket },
             result => {
                 playFabID = result.UserInfo.PlayFabId;
-                InitInventory();
             }, error => { Debug.Log(error.GenerateErrorReport()); });
     }
     //this function can only be accessed by the server
-    [Server]
+    //currently not being used, Playfab rule is granting starter items to new accounts
+    //this function needs to work with save files after they are implemented
+/*    [Command]
     public void InitInventory()
     {
+        //Items for new users
         List<string> newUserItems = new List<string>();
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 5; i++)
         {
             newUserItems.Add("HealthPotion");
         }
@@ -41,13 +45,12 @@ public class PlayFabInventory : NetworkBehaviour
                Debug.Log("new user items granted");
            },
            error => { Debug.Log(error.GenerateErrorReport()); });
-    }
+    }*/
     private void Update()
     {
         if (Input.GetButtonDown("Consumable"))
         {
-            GetInventory();
-            ConsumePotion();
+            CmdConsumePotion();
         }
     }
     void GetInventory()
@@ -64,8 +67,8 @@ public class PlayFabInventory : NetworkBehaviour
             Debug.Log(error.GenerateErrorReport());
         });
     }
-    
-    void ConsumePotion()
+    [Command]
+    void CmdConsumePotion()
     {
         PlayFabClientAPI.ConsumeItem(new PlayFab.ClientModels.ConsumeItemRequest { ConsumeCount = 1, ItemInstanceId = HPpotionid}, result=> {
             Debug.Log(result.RemainingUses);

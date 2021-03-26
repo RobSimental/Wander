@@ -33,14 +33,13 @@ public class PlayFabLogin : NetworkBehaviour
         {
             emailTextField.text = PlayerPrefs.GetString("EMAIL");
             passwordTextField.text = PlayerPrefs.GetString("PASSWORD");
-            //emailTextField.SetText(PlayerPrefs.GetString("EMAIL"));
-            //emailTextField.text = PlayerPrefs.GetString("EMAIL");
         }
     } 
 
     //button function to open registration page
     public void OnClickLoadRegister() 
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
         SceneManager.LoadScene("Registration");
     }
     //buttong function to attempt login
@@ -57,12 +56,14 @@ public class PlayFabLogin : NetworkBehaviour
         //save player preferences locally
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
         SceneManager.LoadScene("KeyToContinue");
     }
     private void OnLoginFailure(PlayFabError error)
     {
         Debug.LogWarning("failed to login");
         Debug.LogError(error.GenerateErrorReport());
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Password Incorrect");
     }
 
     //getter functions for private user info
