@@ -9,15 +9,15 @@ using Mirror;
 
 public class PlayFabInventory : NetworkBehaviour
 {
-       //todo potions need to heal player
-    private string HPpotionid;
-    private string playFabID;
+    //todo potions need to heal player
+    //todo set active consumable function to change based on user choice
+    private string activeConsumable;
     
-    //Currently everytime authenticate user they are given 20 potions, this is for testing purposes
-    //user player_title_added event to have only NEW users get potions
+    
     public override void OnStartAuthority()
     {
         CmdSessionTicket(PlayFabLogin.sessionTicket);
+        activeConsumable = "HealthPotion"; 
         GetInventory();
     }
     [Command]
@@ -25,54 +25,56 @@ public class PlayFabInventory : NetworkBehaviour
     {
         PlayFabServerAPI.AuthenticateSessionTicket(new AuthenticateSessionTicketRequest { SessionTicket = sTicket },
             result => {
-                playFabID = result.UserInfo.PlayFabId;
+                Player.playFabID = result.UserInfo.PlayFabId;
             }, error => { Debug.Log(error.GenerateErrorReport()); });
     }
-    //this function can only be accessed by the server
-    //currently not being used, Playfab rule is granting starter items to new accounts
-    //this function needs to work with save files after they are implemented
-/*    [Command]
-    public void InitInventory()
-    {
-        //Items for new users
-        List<string> newUserItems = new List<string>();
-        for (int i = 0; i < 5; i++)
-        {
-            newUserItems.Add("HealthPotion");
-        }
-        PlayFabServerAPI.GrantItemsToUser(new GrantItemsToUserRequest { PlayFabId = playFabID, ItemIds = newUserItems, CatalogVersion = "Ingame" },
-           result => {
-               Debug.Log("new user items granted");
-           },
-           error => { Debug.Log(error.GenerateErrorReport()); });
-    }*/
+
     private void Update()
     {
         if (Input.GetButtonDown("Consumable"))
         {
-            CmdConsumePotion();
+            CmdConsumePotion(activeConsumable);
         }
     }
-    void GetInventory()
+    public void GetInventory()
     {
         PlayFabClientAPI.GetUserInventory(new PlayFab.ClientModels.GetUserInventoryRequest(), 
             result =>
         {
-            HPpotionid = result.Inventory[0].ItemInstanceId;
-            Debug.Log(result.Inventory[0].DisplayName);
-            
+            foreach(PlayFab.ClientModels.ItemInstance item in result.Inventory)
+            {
+                Debug.Log(item.ItemId);
+            }
         }
-        ,error => 
+        , error => 
         {
             Debug.Log(error.GenerateErrorReport());
         });
     }
     [Command]
-    void CmdConsumePotion()
+    public  void CmdConsumePotion(string activeConsumable)
     {
-        PlayFabClientAPI.ConsumeItem(new PlayFab.ClientModels.ConsumeItemRequest { ConsumeCount = 1, ItemInstanceId = HPpotionid}, result=> {
-            Debug.Log(result.RemainingUses);
-        }, error=> { Debug.Log(error.GenerateErrorReport()); });
+        PlayFabClientAPI.GetUserInventory(new PlayFab.ClientModels.GetUserInventoryRequest(),
+            result =>
+            {
+                foreach(PlayFab.ClientModels.ItemInstance item in result.Inventory)
+                {
+                    if (item.ItemId.Equals(activeConsumable))
+                    {
+                        activeConsumable = item.ItemInstanceId;
+                    }
+                }
+
+
+                PlayFabClientAPI.ConsumeItem(new PlayFab.ClientModels.ConsumeItemRequest { ConsumeCount = 1, ItemInstanceId = activeConsumable }, cresult => {
+                    Debug.Log(cresult.RemainingUses);
+                }, cerror => { Debug.Log(cerror.GenerateErrorReport()); });
+
+            }
+        , error =>
+        {
+            Debug.Log(error.GenerateErrorReport());
+        });
     }
 
 }

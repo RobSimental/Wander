@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Mirror;
+using PlayFab;
+using PlayFab.ServerModels;
 public class Player : NetworkBehaviour
 {
     private Animator animator;
@@ -12,7 +14,7 @@ public class Player : NetworkBehaviour
     private int score = 0;
     private WaitForSeconds regenTick = new WaitForSeconds(0.1f);
     private Coroutine regen;
-
+    public static string playFabID;
     // Variables for HP & Stamina bars
     public int maxHealth = 100;
     public int currentHealth;
@@ -111,5 +113,19 @@ public class Player : NetworkBehaviour
 
     public override void OnStartLocalPlayer(){
         transform.Find("MusicTag").tag = "LocalPlayer";
+    }
+    //adds item to player in playfab
+    [Command]
+    public void CmdAddItemToUser(string item)
+    {
+        //adds an item to the user
+        List<string> newUserItems = new List<string>();
+        newUserItems.Add(item);
+        PlayFabServerAPI.GrantItemsToUser(new GrantItemsToUserRequest { PlayFabId = playFabID, ItemIds = newUserItems, CatalogVersion = "Ingame" },
+           result => {
+               //only 1 item added at a time
+               Debug.Log(result.ItemGrantResults[0].ItemId);
+           },
+           error => { Debug.Log("FAILED TO GRANT ITEM" + error.GenerateErrorReport()); });
     }
 }
