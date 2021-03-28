@@ -125,6 +125,7 @@ public class Enemy : NetworkBehaviour
         if (health <= 0)
         {
             drop.Drops(this.gameObject.transform);
+            Destroy(GetComponent<Collider2D>());
             Destroy(GetComponent<Rigidbody2D>());
             death = true;
             animator.SetBool("dying", death);

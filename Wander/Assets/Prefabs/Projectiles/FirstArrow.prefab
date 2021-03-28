@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8813893706565168334}
   - component: {fileID: -298034024864367390}
   - component: {fileID: 8830502489653503257}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirstArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7d23897871c3944ad59cdbb4508cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   velX: 2
   velY: 2
 --- !u!114 &-298034024864367390

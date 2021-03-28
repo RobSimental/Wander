@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3904368922027960145}
   - component: {fileID: 1553632019248770169}
   - component: {fileID: 354374466986280662}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Roll4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

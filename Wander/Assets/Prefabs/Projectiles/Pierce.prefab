@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9117441503150106492}
   - component: {fileID: 6147908954192129153}
   - component: {fileID: 6171561918018807134}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Pierce
   m_TagString: Untagged
   m_Icon: {fileID: 0}

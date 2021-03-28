@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 7471013158016821141}
   - component: {fileID: 7471013158016821143}
   - component: {fileID: 7471013158016821142}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bat Networked
   m_TagString: Enemy
   m_Icon: {fileID: 0}

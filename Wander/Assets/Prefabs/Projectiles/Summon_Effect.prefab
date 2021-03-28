@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6149623145758412391}
   - component: {fileID: 8277193800659561605}
   - component: {fileID: -515388865615633958}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Summon_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
