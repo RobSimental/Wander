@@ -195,6 +195,9 @@ MonoBehaviour:
   death: 0
   attacking: 0
   player: {fileID: 1608401443960460185, guid: 72234e5d2e8241c42a5d65d5684d6138, type: 3}
+  primaryDropPrefab: {fileID: 4172625779522680467, guid: 13eaa2fa0fe8737449bc3e0f5cf18850,
+    type: 3}
+  secondaryDropPrefab: {fileID: 0}
 --- !u!114 &4886840040982409943
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -124,7 +124,7 @@ public class Player : NetworkBehaviour
         PlayFabServerAPI.GrantItemsToUser(new GrantItemsToUserRequest { PlayFabId = playFabID, ItemIds = newUserItems, CatalogVersion = "Ingame" },
            result => {
                //only 1 item added at a time
-               Debug.Log(result.ItemGrantResults[0].ItemId);
+               Debug.Log("PICKED UP: " + result.ItemGrantResults[0].ItemId);
            },
            error => { Debug.Log("FAILED TO GRANT ITEM" + error.GenerateErrorReport()); });
     }

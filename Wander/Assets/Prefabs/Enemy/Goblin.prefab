@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3737403400354132565}
   - component: {fileID: 4488462283670681230}
   - component: {fileID: 1838605071972837835}
+  - component: {fileID: -3686375644795548505}
   - component: {fileID: 4886840040982409943}
   - component: {fileID: 7649379318355099024}
   - component: {fileID: 7649379318355099026}
@@ -195,6 +196,23 @@ MonoBehaviour:
   death: 0
   attacking: 0
   player: {fileID: 0}
+--- !u!114 &-3686375644795548505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737403400354132560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d449ec701b2cc844ad365a5aee3e6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  primaryDropPrefab: {fileID: 4172625779522680467, guid: 13eaa2fa0fe8737449bc3e0f5cf18850,
+    type: 3}
+  secondaryDropPrefab: {fileID: 0}
 --- !u!114 &4886840040982409943
 MonoBehaviour:
   m_ObjectHideFlags: 0

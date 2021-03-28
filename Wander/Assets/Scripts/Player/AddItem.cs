@@ -7,7 +7,6 @@ using PlayFab.ServerModels;
 public class AddItem : NetworkBehaviour
 {
     private Rigidbody2D rb;
-    private string activeConsumable;
     // Start is called before the first frame update
     void Start()
     {

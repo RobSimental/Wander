@@ -5,7 +5,6 @@ using Mirror;
 public class Enemy : NetworkBehaviour
 {
     protected Animator animator;
-
     public int health, maxHealth;
     private int attack, defense;
     string type;
@@ -13,10 +12,12 @@ public class Enemy : NetworkBehaviour
     protected float attackCoolDownTime, attackCoolDown;
     protected BoxCollider2D hitbox;
     public Player player;
+    private DropItems drop;
 
 
     void Awake()
     {
+        drop = GetComponent<DropItems>();
         animator = gameObject.GetComponent<Animator>();
         player = gameObject.GetComponent<Player>();
 
@@ -121,9 +122,9 @@ public class Enemy : NetworkBehaviour
         isHit = true;
         animator.SetBool("isHit", isHit);
         animator.SetTrigger("hit");
-
         if (health <= 0)
         {
+            drop.Drops(this.gameObject.transform);
             Destroy(GetComponent<Rigidbody2D>());
             death = true;
             animator.SetBool("dying", death);
