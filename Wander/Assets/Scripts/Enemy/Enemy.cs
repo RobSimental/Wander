@@ -38,9 +38,9 @@ public class Enemy : NetworkBehaviour
         }
         else if (type == "Boss")
         {
-            health = maxHealth = 300;
-            attack = 40;
-            defense = 6;
+            health = maxHealth = 50;
+            attack = 20;
+            defense = 3;
             attackCoolDown = 3f;
 
         }/*

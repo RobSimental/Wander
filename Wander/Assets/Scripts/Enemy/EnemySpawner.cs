@@ -25,13 +25,13 @@ public class EnemySpawner : NetworkBehaviour
         GameObject bat3 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
         NetworkServer.Spawn(bat3);
 
-        spawnPosition = new Vector2(12.071f, -6.474f);
-        GameObject bat4 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
-        NetworkServer.Spawn(bat4);
+        //spawnPosition = new Vector2(12.071f, -6.474f);
+        //GameObject bat4 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
+        //NetworkServer.Spawn(bat4);
 
-        spawnPosition = new Vector2(11.368f, -6.374f);
-        GameObject bat5 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
-        NetworkServer.Spawn(bat5);
+        //spawnPosition = new Vector2(11.368f, -6.374f);
+        //GameObject bat5 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
+        //NetworkServer.Spawn(bat5);
 
         spawnPosition = new Vector2(10.691f, -3.705f);
         GameObject bat6 = (GameObject)Instantiate(batPrefab, spawnPosition, spawnRotation);
@@ -76,5 +76,12 @@ public class EnemySpawner : NetworkBehaviour
         spawnPosition = new Vector2(9.129f, 3.1f);
         GameObject boss = (GameObject)Instantiate(bossPrefab, spawnPosition, spawnRotation);
         NetworkServer.Spawn(boss);
+
+
+
+        spawnPosition = new Vector2(12.12f, -6.24f);
+        GameObject boss2 = (GameObject)Instantiate(bossPrefab, spawnPosition, spawnRotation);
+        NetworkServer.Spawn(boss2);
+
     }
 }
