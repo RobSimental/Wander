@@ -72,13 +72,12 @@ GameObject:
   - component: {fileID: 4493395623154493520}
   - component: {fileID: 4493395623154493527}
   - component: {fileID: 4493395623154493526}
-  - component: {fileID: -8391034923594603527}
   - component: {fileID: 5645218376888592594}
   - component: {fileID: 6413238325876783581}
   - component: {fileID: 7471013158016821141}
   - component: {fileID: 7471013158016821143}
   - component: {fileID: 7471013158016821142}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: Bat Networked
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -253,23 +252,6 @@ MonoBehaviour:
   death: 0
   attacking: 0
   player: {fileID: 1608401443960460185, guid: 72234e5d2e8241c42a5d65d5684d6138, type: 3}
---- !u!114 &-8391034923594603527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4493395623154493525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d449ec701b2cc844ad365a5aee3e6f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  primaryDropPrefab: {fileID: 4172625779522680467, guid: 13eaa2fa0fe8737449bc3e0f5cf18850,
-    type: 3}
-  secondaryDropPrefab: {fileID: 0}
 --- !u!114 &5645218376888592594
 MonoBehaviour:
   m_ObjectHideFlags: 0

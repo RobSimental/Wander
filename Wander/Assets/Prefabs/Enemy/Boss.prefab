@@ -1310,14 +1310,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  levelChanger: {fileID: 0}
   health: 0
   maxHealth: 300
   isHit: 0
   death: 0
   attacking: 0
   player: {fileID: 0}
-  heatUpPoint: 25
+  levelChanger: {fileID: 0}
 --- !u!1 &4453088067848279370
 GameObject:
   m_ObjectHideFlags: 0
