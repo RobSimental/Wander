@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 Wander/fmod_editor.log
 Wander/fmod_editor.log
+Wander/Assets/PlayMaker/Editor/Resources/EditorStartupPrefs.asset
+Wander/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset

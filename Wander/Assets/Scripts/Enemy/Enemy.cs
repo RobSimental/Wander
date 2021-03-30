@@ -124,7 +124,8 @@ public class Enemy : NetworkBehaviour
         animator.SetTrigger("hit");
         if (health <= 0)
         {
-            drop.Drops(this.gameObject.transform);
+            //If you get an error here saying Object does not exist you need to add the DropItems script to this object
+            drop.Drops(this.transform);
             Destroy(GetComponent<Collider2D>());
             Destroy(GetComponent<Rigidbody2D>());
             death = true;
