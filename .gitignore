@@ -8,6 +8,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+Wander/Assets/Pixel Art*
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -59,3 +60,5 @@ crashlytics-build.properties
 
 Wander/fmod_editor.log
 Wander/fmod_editor.log
+Wander/Assets/PlayMaker/Editor/Resources/EditorStartupPrefs.asset
+Wander/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset

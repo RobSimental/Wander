@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3315852875846846707}
   - component: {fileID: 960733898064219283}
   - component: {fileID: 348002852609125017}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Firewall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

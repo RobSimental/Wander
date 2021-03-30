@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -5140161277693467754}
   - component: {fileID: 1702467432299188069}
   - component: {fileID: 6414332593035015032}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ArrowStorm
   m_TagString: Untagged
   m_Icon: {fileID: 0}

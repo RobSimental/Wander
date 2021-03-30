@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1831558424030443796}
   - component: {fileID: -7362242640156146200}
   - component: {fileID: -9057519630851140344}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FireShowerLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}

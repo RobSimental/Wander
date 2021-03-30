@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Wander/Assets/PlayFabSDK/Authentication.meta
+guid: 8c64a9fb46b268941adf1d69686c7711
+=======
 guid: a1e1764ece5830349a7e13953fbdd4cd
+>>>>>>> Development:Wander/Assets/Levels/Hazards.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

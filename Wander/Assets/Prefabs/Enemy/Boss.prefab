@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 7649379318355099026}
   - component: {fileID: 7649379318355099027}
   - component: {fileID: 7023802150115538679}
+  - component: {fileID: 5879946977745525729}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -1317,6 +1318,22 @@ MonoBehaviour:
   attacking: 0
   player: {fileID: 0}
   levelChanger: {fileID: 0}
+--- !u!114 &5879946977745525729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737403400354132560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d449ec701b2cc844ad365a5aee3e6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  primaryDropPrefab: {fileID: 0}
+  secondaryDropPrefab: {fileID: 0}
 --- !u!1 &4453088067848279370
 GameObject:
   m_ObjectHideFlags: 0
