@@ -246,7 +246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  levelChanger: {fileID: 0}
   health: 0
   maxHealth: 0
   isHit: 0
