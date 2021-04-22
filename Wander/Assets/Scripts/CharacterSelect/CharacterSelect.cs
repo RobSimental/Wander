@@ -22,6 +22,6 @@ public class CharacterSelect : MonoBehaviour
 
     public void changeSceneToNext()
     {
-        SceneManager.LoadScene("Wander(Prototype1)");
+        SceneManager.LoadScene("Wander(LevelProto)");
     }
 }
