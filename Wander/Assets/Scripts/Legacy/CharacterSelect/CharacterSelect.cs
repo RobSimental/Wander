@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelect : MonoBehaviour
 {
+    public GameObject LobbySelect;
     public void selectArcher()
     {
         DBManager.choosen = "Archer";
@@ -20,8 +21,10 @@ public class CharacterSelect : MonoBehaviour
         DBManager.choosen = "Warrior";
     }
 
-    public void changeSceneToNext()
+    public void lobbySelect()
     {
-        SceneManager.LoadScene("Wander(LevelProto)");
+        LobbySelect.SetActive(true);
+        this.gameObject.SetActive(false);
+        //SceneManager.LoadScene("Wander(LevelProto)");
     }
 }

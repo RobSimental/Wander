@@ -7,20 +7,21 @@ using TMPro;
 
 public class PressKey : MonoBehaviour
 {
-
+    public static string username;
+    public GameObject CharacterSelect;
     public TMP_Text playDisplay;
     // Start is called before the first frame update
     private void Start() {
-        if(DBManager.LoggedIn) {
-            playDisplay.text = "Player: " + DBManager.username;
-        }
+        playDisplay.text =  username;
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.anyKeyDown){
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            CharacterSelect.SetActive(true);
+            this.gameObject.SetActive(false);
             FMODUnity.RuntimeManager.PlayOneShot("event:/UI/KeyPressed");
         }
     }

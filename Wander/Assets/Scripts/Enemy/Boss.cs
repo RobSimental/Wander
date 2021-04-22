@@ -12,7 +12,7 @@ public class Boss : Enemy
     BoxCollider2D laser1, laser2;
 
     void Start() {
-        GameObject GO = GameObject.Find("Music");
+        GameObject GO = GameObject.Find("MusicManager");
         music = (MusicManager)GO.GetComponent<MusicManager>();
         levelChanger = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
 

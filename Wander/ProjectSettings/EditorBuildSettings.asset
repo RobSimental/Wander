@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Character Select.unity
     guid: c52b779d1e867fa49b8044c3da7f1861
   - enabled: 1
+    path: Assets/Scenes/Wander(LevelProto).unity
+    guid: 2f4324e8f39f4874a89115dae5229bdb
+  - enabled: 0
     path: Assets/Scenes/Wander(Prototype1).unity
     guid: 2c0328d71af3e514b826d4edf6be7162
   - enabled: 1

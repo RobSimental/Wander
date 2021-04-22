@@ -3,29 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using PlayFab;
 using PlayFab.ClientModels;
-using UnityEngine.SceneManagement;
 public class PlayFabRegistration : MonoBehaviour
 {
     private string userEmail;
     private string userPassword;
     private string username;
     private string confirmPassword;
-    void Start()
-    {
-        if (string.IsNullOrEmpty(PlayFabSettings.TitleId))
-        {
-            //set the title id to the Wander playfab title id
-            PlayFabSettings.TitleId = "23BBA";
-        }
-    }
+    public GameObject LoginPanel;
     public void OnClickLoadLogin()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Cancel");
-        SceneManager.LoadScene("Login");
+        //SceneManager.LoadScene("Login");
+        LoginPanel.SetActive(true);
+        this.gameObject.SetActive(false);
     }
     public void OnClickRegister()
     {
-        if (userPassword.Equals(confirmPassword))
+        if (userPassword != null && userPassword.Equals(confirmPassword))
         {
             //create request with success/failure functions
             var registerRequest = new RegisterPlayFabUserRequest { Email = userEmail, Password = userPassword, Username = username };
@@ -33,8 +27,7 @@ public class PlayFabRegistration : MonoBehaviour
         }
         else
         {
-            //todo make error visiable to user
-            Debug.Log("passwords dont match");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Password Incorrect");
         }
     }
     public void OnRegisterSuccess(RegisterPlayFabUserResult result)
@@ -44,7 +37,9 @@ public class PlayFabRegistration : MonoBehaviour
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
-        SceneManager.LoadScene("Login");
+        //SceneManager.LoadScene("Login");
+        LoginPanel.SetActive(true);
+        this.gameObject.SetActive(false);
     }
     public void OnRegisterFailure(PlayFabError error)
     {

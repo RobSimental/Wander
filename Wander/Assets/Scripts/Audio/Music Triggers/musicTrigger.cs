@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class musicTrigger : MonoBehaviour
 {
-    MusicManager music;
+    public MusicManager musicManager;
     public musicChoices musicChoice;
     public bool changeMusic = false;
-    
+    private GameObject mm;
+    private void Start()
+    {
+        mm = GameObject.Find("MusicManager");
+        musicManager = mm.GetComponent<MusicManager>();
+    }
     public enum musicChoices{ 
         menuMusic,
         characterSelect,
@@ -23,47 +28,40 @@ public class musicTrigger : MonoBehaviour
     };
     public void setMusic(){
         if (musicChoice == musicChoices.menuMusic){
-                music.menuMusic(0);
+            musicManager.menuMusic(0);
         }
         if (musicChoice == musicChoices.characterSelect){
-                music.menuMusic(1);
+            musicManager.menuMusic(1);
         }
         if (musicChoice == musicChoices.cave){
-                music.caveMusic();
+            musicManager.caveMusic();
         }
         if (musicChoice == musicChoices.forest1){
-                music.forestMusic(0);
+            musicManager.forestMusic(0);
         }
         if (musicChoice == musicChoices.forest2){
-                music.forestMusic(1);
+            musicManager.forestMusic(1);
         }
         if (musicChoice == musicChoices.boss1){
-                music.bossMusic(0);
+            musicManager.bossMusic(0);
         }
         if (musicChoice == musicChoices.boss2){
-                music.bossMusic(1);
+            musicManager.bossMusic(1);
         }
         if (musicChoice == musicChoices.bossDeath){
-                music.bossMusic(2);
+            musicManager.bossMusic(2);
         }
         if (musicChoice == musicChoices.credit){
-                music.creditMusic();
+            musicManager.creditMusic();
         }
         if (musicChoice == musicChoices.gameOver){
-                music.deathMusic();
+            musicManager.deathMusic();
         }
         if (musicChoice == musicChoices.noMusic){
-                music.noMusicFullReset();
+            musicManager.noMusicFullReset();
         }
     }
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        GameObject GO = GameObject.Find("Music");
-        music = (MusicManager) GO.GetComponent<MusicManager>();
-        
-    }
+
 
     // Update is called once per frame
     void Update()

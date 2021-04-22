@@ -13,6 +13,8 @@ public class PlayFabLogin : NetworkBehaviour
     //todo probably shouldnt save passwords locally since not secure, but allows for easier development
     public GameObject emailInput;
     public GameObject passwordInput;
+    public GameObject registrationPanel;
+    public GameObject pressKey;
     private TMP_InputField emailTextField;
     private TMP_InputField passwordTextField;
     private string userEmail;
@@ -21,11 +23,7 @@ public class PlayFabLogin : NetworkBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (string.IsNullOrEmpty(PlayFabSettings.TitleId))
-        {
-            //set the title id to the Wander playfab title id
-            PlayFabSettings.TitleId = "23BBA";
-        }
+ 
         emailTextField = emailInput.GetComponent<TMP_InputField>();
         passwordTextField = passwordInput.GetComponent<TMP_InputField>();
         //get player preferences for easy login
@@ -39,8 +37,10 @@ public class PlayFabLogin : NetworkBehaviour
     //button function to open registration page
     public void OnClickLoadRegister() 
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
-        SceneManager.LoadScene("Registration");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");    
+        registrationPanel.SetActive(true);
+        this.gameObject.SetActive(false);
+        //SceneManager.LoadScene("Registration");
     }
     //buttong function to attempt login
     public void OnClickLogin()
@@ -51,13 +51,16 @@ public class PlayFabLogin : NetworkBehaviour
     }
     private void OnLoginSuccess(LoginResult result)
     {
-        Debug.Log("logged in");
+        //Playfab API not returning the username for some reason, should work on paper
+        //PressKey.username = result.InfoResultPayload.AccountInfo.Username;
         sessionTicket = result.SessionTicket;
         //save player preferences locally
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
-        SceneManager.LoadScene("KeyToContinue");
+        //SceneManager.LoadScene("KeyToContinue");
+        pressKey.SetActive(true);
+        this.gameObject.SetActive(false);
     }
     private void OnLoginFailure(PlayFabError error)
     {

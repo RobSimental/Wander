@@ -46,12 +46,12 @@ public class Lobby : MonoBehaviour
 		msgQueue.AddCallback(Constants.SMSG_LOBBY, ResponseLobbies);
 	}
 
-	private void Update() {
+/*	private void Update() {
 		if(isTrue){
 			cManager.send(requestLobbies());
 			isTrue = false;
 		}
-	}
+	}*/
     public RequestLobbies requestLobbies(){
         RequestLobbies request = new RequestLobbies();
         request.send();
