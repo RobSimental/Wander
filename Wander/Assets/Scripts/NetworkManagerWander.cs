@@ -13,13 +13,18 @@ public class NetworkManagerWander : NetworkManager {
 
     [Header("Room")]
     [SerializeField] private NetworkRoomPlayerWander roomPlayerPrefab = null;
+    [Header("Player Prefabs")]
+    [SerializeField] private GameObject Archer = null;
+    [SerializeField] private GameObject Mage = null;
+    [SerializeField] private GameObject Warrior = null;
 
     public static event Action OnClientConnected;
     public static event Action OnClientDisconnected;
 
     //list of players in lobby
     public List<NetworkRoomPlayerWander> RoomPlayers { get; } = new List<NetworkRoomPlayerWander>();
- 
+    public List<GameObject> GamePlayers { get; } = new List<GameObject>();
+
     public override void OnClientConnect(NetworkConnection conn)
     {
         base.OnClientConnect(conn);
@@ -92,6 +97,45 @@ public class NetworkManagerWander : NetworkManager {
             if (!player.IsReady) { return false; }
         }
         return true;
+    }
+    public void StartGame()
+    {
+        if(SceneManager.GetActiveScene().path == menuScene)
+        {
+            if (!IsReadyToStart()) { return; }
+            ServerChangeScene("Wander(LevelProto)");
+        }
+    }
+    public override void ServerChangeScene(string newSceneName)
+    {
+        //going from menu to game scene
+        if (SceneManager.GetActiveScene().path == menuScene && newSceneName.StartsWith("Wander"))
+        {
+            Debug.Log(RoomPlayers.Count);
+            for (int i = RoomPlayers.Count-1; i>=0; i--)
+            {
+                GameObject gamePlayerPrefab;
+                if (RoomPlayers[i].characterChoice == "Mage")
+                {
+                    gamePlayerPrefab = Mage;
+                }
+                else if (RoomPlayers[i].characterChoice == "Warrior")
+                {
+                    gamePlayerPrefab = Warrior;
+                }
+                else
+                {
+                    gamePlayerPrefab = Archer;
+                }
+                Debug.Log("hello:"+ RoomPlayers[i].characterChoice);
+                var conn = RoomPlayers[i].connectionToClient;
+                var gameplayerInstance = Instantiate(gamePlayerPrefab);
+                //gameplayerInstance.SetDisplayName(RoomPlayers[i].DisplayName);
+                NetworkServer.Destroy(conn.identity.gameObject);
+                NetworkServer.ReplacePlayerForConnection(conn, gameplayerInstance.gameObject);
+            }
+        }
+        base.ServerChangeScene(newSceneName);
     }
 
 

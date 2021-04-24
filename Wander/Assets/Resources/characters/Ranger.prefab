@@ -180,6 +180,7 @@ MonoBehaviour:
   dying: 0
   player: {fileID: 0}
   levelChanger: {fileID: 0}
+  DisplayName: Loading...
 --- !u!114 &5660752043744699017
 MonoBehaviour:
   m_ObjectHideFlags: 0

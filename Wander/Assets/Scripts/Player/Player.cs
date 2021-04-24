@@ -114,6 +114,36 @@ public class Player : NetworkBehaviour
     public override void OnStartLocalPlayer(){
         transform.Find("MusicTag").tag = "LocalPlayer";
     }
+
+    private NetworkManagerWander room;
+    private NetworkManagerWander Room //allows you to reference NMWander as Room
+    {
+        get
+        {
+            if (room != null) { return room; }
+            return room = NetworkManager.singleton as NetworkManagerWander;
+        }
+    }
+
+
+    //New Networking Code
+    [SyncVar]
+    public string DisplayName = "Loading...";
+    public override void OnStartClient()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        Room.GamePlayers.Add(this.gameObject);
+    }
+    public override void OnNetworkDestroy()
+    {
+        Room.GamePlayers.Remove(this.gameObject);
+    }
+    [Server]
+    public void SetDisplayName(string displayName)
+    {
+        this.DisplayName = displayName;
+    }
+
     //adds item to player in playfab
     [Command]
     public void CmdAddItemToUser(string item)

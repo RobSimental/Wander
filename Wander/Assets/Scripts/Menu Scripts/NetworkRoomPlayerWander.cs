@@ -16,7 +16,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
     public string DisplayName = "Loading...";
     [SyncVar(hook = nameof(HandleReadyStatusChanged))]
     public bool IsReady = false;
-
+    public string characterChoice;
     private bool isLeader;
 
     public bool IsLeader
@@ -24,7 +24,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
         set
         {
             isLeader = value;
-            startGameButton.gameObject.SetActive(true);
+            startGameButton.gameObject.SetActive(value);
         }
     }
     private NetworkManagerWander room;
@@ -39,6 +39,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
     
     public override void OnStartAuthority()
     {
+        CmdSetCharacterChoice(CharacterSelect.characterChoice);
         CmdSetDisplayName(PlayFabLogin.username);
         lobbyUI.SetActive(true); //TO ONLY SHOW THE UI FOR YOUR CLIENT
     }
@@ -107,5 +108,11 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
     {
         //only leader can start the game
         if(Room.RoomPlayers[0].connectionToClient != connectionToClient) { return; }
+        Room.StartGame();
+    }
+    [Command]
+    public void CmdSetCharacterChoice(string choice)
+    {
+        characterChoice = choice;
     }
 }

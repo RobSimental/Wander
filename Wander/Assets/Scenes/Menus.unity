@@ -6172,6 +6172,24 @@ PrefabInstance:
       propertyPath: autoCreatePlayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8933076609358663546, guid: 1caa4ea3c0580ed499ed85c653a1bc2a,
+        type: 3}
+      propertyPath: Warrior
+      value: 
+      objectReference: {fileID: 1608401443960460184, guid: c5457978a9b78234a99b5f882e688fe4,
+        type: 3}
+    - target: {fileID: 8933076609358663546, guid: 1caa4ea3c0580ed499ed85c653a1bc2a,
+        type: 3}
+      propertyPath: Archer
+      value: 
+      objectReference: {fileID: 418582126320028377, guid: feda2280dd8fe2f4f8fa4983c088fb36,
+        type: 3}
+    - target: {fileID: 8933076609358663546, guid: 1caa4ea3c0580ed499ed85c653a1bc2a,
+        type: 3}
+      propertyPath: Mage
+      value: 
+      objectReference: {fileID: 1546363441769914248, guid: 7d80cce36b56bc6459e359c05fbd7678,
+        type: 3}
     - target: {fileID: 8933076609358663547, guid: 1caa4ea3c0580ed499ed85c653a1bc2a,
         type: 3}
       propertyPath: m_LocalPosition.x
