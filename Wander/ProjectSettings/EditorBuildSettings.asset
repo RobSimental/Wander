@@ -5,31 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: e9aabf530b748674981f2c9c49de7413
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Login.unity
     guid: dc3b2babe9165824ea60b4aecbaa2420
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Registration.unity
     guid: 342329ed6ee6fe144bf3c365b63c0f83
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KeyToContinue.unity
     guid: 2ea7c0e3a2505f24bbb9a62f9c9af762
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Character Select.unity
     guid: c52b779d1e867fa49b8044c3da7f1861
-  - enabled: 1
-    path: Assets/Scenes/Wander(LevelProto).unity
-    guid: 2f4324e8f39f4874a89115dae5229bdb
   - enabled: 0
     path: Assets/Scenes/Wander(Prototype1).unity
     guid: 2c0328d71af3e514b826d4edf6be7162
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameOver.unity
     guid: a73cd3496b7ff014da6373f819db13eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: baeabfe7d7a973c45a90770dc5f29e33
+  - enabled: 1
+    path: Assets/Scenes/Menus.unity
+    guid: 942aeaaf3d37b8545ab08bd5f0527285
+  - enabled: 1
+    path: Assets/Scenes/Wander(LevelProto).unity
+    guid: 2f4324e8f39f4874a89115dae5229bdb
   m_configObjects: {}

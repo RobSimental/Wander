@@ -6,25 +6,25 @@ using UnityEngine.SceneManagement;
 public class CharacterSelect : MonoBehaviour
 {
     public GameObject LobbySelect;
+    public static string characterChoice;
     public void selectArcher()
     {
-        DBManager.choosen = "Archer";
+        characterChoice = "Archer";
     }
 
     public void selectMage()
     {
-        DBManager.choosen = "Mage";
+       characterChoice = "Mage";
     }
 
     public void selectWarrior()
     {
-        DBManager.choosen = "Warrior";
+        characterChoice = "Warrior";
     }
 
     public void lobbySelect()
     {
         LobbySelect.SetActive(true);
         this.gameObject.SetActive(false);
-        //SceneManager.LoadScene("Wander(LevelProto)");
     }
 }

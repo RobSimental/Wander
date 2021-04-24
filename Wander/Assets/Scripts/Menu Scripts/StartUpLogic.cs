@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using PlayFab;
+
 public class StartUpLogic : MonoBehaviour
 {
     public GameObject LoginPanel;

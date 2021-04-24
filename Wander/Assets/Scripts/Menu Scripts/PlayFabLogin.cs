@@ -10,6 +10,7 @@ using TMPro;
 
 public class PlayFabLogin : NetworkBehaviour
 {
+    public static string username;
     //todo probably shouldnt save passwords locally since not secure, but allows for easier development
     public GameObject emailInput;
     public GameObject passwordInput;
@@ -51,16 +52,26 @@ public class PlayFabLogin : NetworkBehaviour
     }
     private void OnLoginSuccess(LoginResult result)
     {
+ 
+
+
+
         //Playfab API not returning the username for some reason, should work on paper
-        //PressKey.username = result.InfoResultPayload.AccountInfo.Username;
+        //PressKey.username = result.InfoResultPayload.AccountInfo.TitleInfo.DisplayName;
         sessionTicket = result.SessionTicket;
         //save player preferences locally
         PlayerPrefs.SetString("EMAIL", userEmail);
         PlayerPrefs.SetString("PASSWORD", userPassword);
         FMODUnity.RuntimeManager.PlayOneShot("event:/UI/Enter");
-        //SceneManager.LoadScene("KeyToContinue");
-        pressKey.SetActive(true);
-        this.gameObject.SetActive(false);
+
+        PlayFabClientAPI.GetAccountInfo(new GetAccountInfoRequest { Email = userEmail }, accountResult =>
+        {
+            username = accountResult.AccountInfo.Username;
+            Debug.Log(accountResult.AccountInfo.Username);
+            pressKey.SetActive(true);
+            this.gameObject.SetActive(false);
+        }, accountError => { Debug.Log(accountError.GenerateErrorReport()); });
+
     }
     private void OnLoginFailure(PlayFabError error)
     {
