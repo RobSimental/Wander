@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>9</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Empty</value>
@@ -26,6 +26,8 @@
 			<value>Boss</value>
 			<value>Death</value>
 			<value>Credits</value>
+			<value>Desert</value>
+			<value>Labyrinth</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

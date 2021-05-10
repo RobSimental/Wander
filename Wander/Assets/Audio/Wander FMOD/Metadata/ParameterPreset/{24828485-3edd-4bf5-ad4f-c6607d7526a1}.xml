@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{24828485-3edd-4bf5-ad4f-c6607d7526a1}">
+		<property name="name">
+			<value>DesertAmbience</value>
+		</property>
+		<relationship name="folder">
+			<destination>{03408c5f-dbf5-478f-9e00-de989e6c608b}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{76514840-edba-4446-adf2-c0318b070c93}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{76514840-edba-4446-adf2-c0318b070c93}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

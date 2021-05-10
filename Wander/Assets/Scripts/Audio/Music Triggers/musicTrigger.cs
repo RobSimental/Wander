@@ -55,6 +55,7 @@ public class musicTrigger : MonoBehaviour
         if (musicChoice == musicChoices.noMusic){
                 music.noMusicFullReset();
         }
+        
     }
     
     // Start is called before the first frame update

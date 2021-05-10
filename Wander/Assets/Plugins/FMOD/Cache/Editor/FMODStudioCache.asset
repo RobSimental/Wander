@@ -240,6 +240,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-9022911950413595546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-9004062127684432384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-9003447850842502046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,12 +308,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -3437273345313010340}
+  - {fileID: -6156011749223256720}
   MinDistance: 4.8999996
   MaxDistance: 9
   Length: 1050
@@ -335,6 +369,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8911471082607580666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-8899991412259982178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +401,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-8857493510557213291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-8843787402502411158
@@ -404,7 +472,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -412,6 +480,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 319
+--- !u!114 &-8772538481544849123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-8766769515877559775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +525,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-8748735811626596720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
   m_EditorClassIdentifier: 
   Name: Surface
   Min: 0
@@ -549,7 +651,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -624,7 +726,7 @@ MonoBehaviour:
   guid: 414b7b1daf5f0a448d37ece298706ae0
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -770,6 +872,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-8453873842204106669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-8447147640466099100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-8434935171795494602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,7 +1044,7 @@ MonoBehaviour:
   guid: 697d1556ebbaca42a786977909bafe3a
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1071,7 +1207,7 @@ MonoBehaviour:
   guid: 154bc7d7c8fecd49845a30f914d7eccc
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1473,6 +1609,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-7789964736509366674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-7782605290984480421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1505,6 +1658,23 @@ MonoBehaviour:
   Name: Menu Heat
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7764853112066876634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-7761475490456820488
@@ -1541,12 +1711,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6955054769388595678}
+  - {fileID: -8911471082607580666}
   MinDistance: 0
   MaxDistance: 0
   Length: 93509
@@ -1759,12 +1929,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -630393383824980641}
+  - {fileID: -4447121692759488757}
   MinDistance: 4.8999996
   MaxDistance: 9
   Length: 1000
@@ -1801,6 +1971,23 @@ MonoBehaviour:
   Name: Menu Heat
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7546991201506298594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-7530954673950330230
@@ -1872,6 +2059,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-7457705648650319874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7456609716974465728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2167,7 +2371,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2261,12 +2465,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7470084657199645154}
+  - {fileID: -3586340672801752587}
   MinDistance: 0
   MaxDistance: 0
   Length: 68359
@@ -2563,6 +2767,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &-6798622149165350748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6796100834593115121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2702,6 +2923,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-6623139512882150591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 0
 --- !u!114 &-6622695258165339784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2767,6 +3005,23 @@ MonoBehaviour:
   m_Name: parameter:/Music manager/Boss Heat
   m_EditorClassIdentifier: 
   Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6569790717403336906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Music/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
   Min: 0
   Max: 3
   Default: 0
@@ -2977,7 +3232,7 @@ MonoBehaviour:
   guid: b01ee29ed753684283b20795c8d24508
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3087,6 +3342,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-6156011749223256720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &-6126802491072719604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3136,6 +3408,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6051999917276464092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-6030739783109217726
@@ -3291,6 +3580,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5880444277194741509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561950260365156
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5863878798343851722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,6 +3633,30 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5843658595364413681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Desert Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Desert Music
+  guid: 6b10698c185a094d87ae248f1243078c
+  Banks:
+  - {fileID: -5880444277194741509}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5386720558266019849}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 117000
 --- !u!114 &-5828637594081141308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3497,7 +3828,7 @@ MonoBehaviour:
   guid: 079931ac9972e04f952f4ffadde717fc
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3660,6 +3991,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5569665448679571825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561944767472967
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5566947050131556924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3814,6 +4163,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-5413251328173370459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-5389858867175405882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,6 +4213,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-5351399915236231194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561923029953822
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-5299622446787194284
 MonoBehaviour:
@@ -3934,6 +4318,23 @@ MonoBehaviour:
   Max: 7
   Default: 0
   Exists: 0
+--- !u!114 &-5279586060991124982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5219479894344724819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,7 +4352,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4098,7 +4499,7 @@ MonoBehaviour:
   guid: ed6fa92ddc34b7438e1ab355aef53ef4
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4123,6 +4524,23 @@ MonoBehaviour:
   lastModified: 637248290072882135
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-5083599113872354873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &-5067828181630117247
 MonoBehaviour:
@@ -4261,7 +4679,41 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-4941535088141579621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-4929083246290045590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4926675220856064959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4291,6 +4743,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/Surface
   m_EditorClassIdentifier: 
   Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-4801496081845575593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
   Min: 0
   Max: 3
   Default: 0
@@ -4329,6 +4798,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4750478073660664087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561945087240444
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4747625365538847699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4363,6 +4850,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-4717269430952680807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Ambience/DesertAmbience
+  m_EditorClassIdentifier: 
+  Name: DesertAmbience
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4710127167889442019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4466,6 +4970,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4620970636048786995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-4462621301198860293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4481,6 +5002,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-4447121692759488757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 1
 --- !u!114 &-4444809516805611868
@@ -4534,6 +5072,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4399236510744615130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561910640109377
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4391387168384952020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &-4388786463516423435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4637,7 +5210,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4656,6 +5229,40 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4336469699748771921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-4335145804062325681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
   m_EditorClassIdentifier: 
   Name: Forest Heat
   Min: 0
@@ -4839,6 +5446,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1950
+--- !u!114 &-4150281064960698098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-4136767721646848468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5149,7 +5773,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -5399,6 +6023,46 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-3665400726754628329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Labyrinth Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Labyrinth Music
+  guid: 613c7c6937b0dc43a2e307e7fad63e12
+  Banks:
+  - {fileID: -5880444277194741509}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 50000
+--- !u!114 &-3660187374421553991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &-3624290243807093997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5484,6 +6148,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-3586340672801752587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3582052229448061473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5535,7 +6216,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5595,6 +6276,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-3427552807746810607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &-3426770336618793110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5612,6 +6310,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-3412330270407194432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-3390187467513485712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5645,7 +6360,7 @@ MonoBehaviour:
   guid: 69eb9f6a5d6c5a41be975c744dc65733
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5687,7 +6402,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5695,6 +6410,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 4.8
   Length: 1065
+--- !u!114 &-3361889699177187947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 1
 --- !u!114 &-3349674314543419309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5746,6 +6478,23 @@ MonoBehaviour:
   lastModified: 637236158024117461
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-3305547668438215717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-3287401751051603499
 MonoBehaviour:
@@ -5850,7 +6599,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -5958,6 +6707,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3126214683770614511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &-3121096024539308134
@@ -6113,7 +6879,7 @@ MonoBehaviour:
   guid: c6a95b4a170ce348afc56999c9562055
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -6257,12 +7023,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2984123772489639712}
+  - {fileID: -4391387168384952020}
   MinDistance: 0
   MaxDistance: 0
   Length: 95826
@@ -6352,6 +7118,23 @@ MonoBehaviour:
   lastModified: 637241898480229846
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2690041337485064882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &-2641203476543310152
 MonoBehaviour:
@@ -6818,6 +7601,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 1
+--- !u!114 &-2144037918285162852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2130501529726256139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7007,6 +7807,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-1914902056548864062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-1897293434417440442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7094,6 +7911,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1792189066886581163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-1777251185303826904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7179,6 +8013,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-1762573838228162301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-1722875523953755686
@@ -7489,7 +8340,7 @@ MonoBehaviour:
   guid: 9bf2bcc2a873e14ab9fe3bf060e375a5
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7567,6 +8418,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-1293812361647783269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Music/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-1273306287199342291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7584,15 +8452,16 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4710127167889442019}
-  - {fileID: 8705093485377675397}
-  - {fileID: 6189053350491347132}
-  - {fileID: 8475615564006525318}
+  - {fileID: -3361889699177187947}
+  - {fileID: 2195597930637805835}
+  - {fileID: 4007873551973947061}
+  - {fileID: 3093023200129081413}
+  - {fileID: -3427552807746810607}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -7647,7 +8516,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -7723,7 +8592,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -7921,12 +8790,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -2284513901140142780}
+  - {fileID: 2417991376249312783}
   MinDistance: 2.2499998
   MaxDistance: 6
   Length: 500
@@ -7996,6 +8865,23 @@ MonoBehaviour:
   Name: Surface
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-828464803934055004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-810163240769418585
@@ -8082,7 +8968,7 @@ MonoBehaviour:
   guid: bd0a07f220436141944d0dc12747f985
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8091,6 +8977,23 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 631
 --- !u!114 &-693645271763105776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-667826850716031405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8145,7 +9048,7 @@ MonoBehaviour:
   guid: 04e8f97b10f7a548a3fcef028e270ff6
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8187,6 +9090,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-628492062035645739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-619638824019265405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8202,6 +9122,24 @@ MonoBehaviour:
   Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637242129508168556
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-598531088486823564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637545125512769533
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -8257,6 +9195,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-500892996097448318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Music/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-456116948316621045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Music/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &-428067952288252993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8273,7 +9245,7 @@ MonoBehaviour:
   guid: 79ecd42d9fc318458aeed8c8fa6e7c0e
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8587,7 +9559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8820463904110504174}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   EditorEvents:
   - {fileID: 2965054620475447}
   - {fileID: 435311726305861641}
@@ -8644,12 +9616,15 @@ MonoBehaviour:
   - {fileID: -3389695921382673100}
   - {fileID: -428067952288252993}
   - {fileID: 6831366705369050801}
+  - {fileID: 3947090214547528562}
+  - {fileID: -5843658595364413681}
+  - {fileID: -3665400726754628329}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   StringsBanks:
   - {fileID: 8820463904110504174}
-  stringsBankWriteTime: 637505636095667399
+  stringsBankWriteTime: 637561950260435174
   cacheVersion: 3
 --- !u!114 &2965054620475447
 MonoBehaviour:
@@ -8668,7 +9643,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8762,6 +9737,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &178469964655927430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &186581696520169953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8948,7 +9940,7 @@ MonoBehaviour:
   guid: cd71b7fe8eb3874cb624da5f0d03d764
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -8991,7 +9983,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -9033,7 +10025,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -9122,6 +10114,23 @@ MonoBehaviour:
   m_Name: parameter:/Landing/Surface
   m_EditorClassIdentifier: 
   Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &537196659274399403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
   Min: 0
   Max: 3
   Default: 0
@@ -9316,7 +10325,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -9410,6 +10419,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &822348245458171461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &852516262722938909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9423,6 +10449,23 @@ MonoBehaviour:
   m_Name: parameter:/Landing/Surface
   m_EditorClassIdentifier: 
   Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &863423315313427644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
   Min: 0
   Max: 3
   Default: 0
@@ -9476,6 +10519,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &948023187756412232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &961678314817373417
@@ -9787,7 +10847,7 @@ MonoBehaviour:
   guid: 500d795dee036a42a5f5bc4e7e16e45d
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10051,6 +11111,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &1614282203260499464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &1616357990156804576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10120,6 +11197,23 @@ MonoBehaviour:
   Name: Surface
   Min: 0
   Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1729286205708915945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Forrest music/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &1754335061747782838
@@ -10224,6 +11318,23 @@ MonoBehaviour:
   lastModified: 637242133533223741
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &1910775304839532082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 0
 --- !u!114 &1916270854166228614
 MonoBehaviour:
@@ -10465,6 +11576,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &2195597930637805835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &2225285222190908402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10499,6 +11627,40 @@ MonoBehaviour:
   lastModified: 637237023879134514
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &2247925974581197749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 0
+--- !u!114 &2251516194514426506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &2262597245799836003
 MonoBehaviour:
@@ -10654,6 +11816,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &2417991376249312783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &2423624250631669665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10808,7 +11987,7 @@ MonoBehaviour:
   guid: a1affc664a898b4992561bcec0b07359
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -10867,6 +12046,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &2683939487993248911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &2686367979625211229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10919,7 +12115,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -11083,6 +12279,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &2898303378920954486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &2902643965671121672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11168,7 +12381,7 @@ MonoBehaviour:
   guid: 7f9c64b7fd22a844be1d5dfd30f2e13f
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11363,6 +12576,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &3093023200129081413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &3096654815482734002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11451,6 +12681,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &3202557966507061195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &3212056714322627327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11624,6 +12871,40 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &3426815301806510183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3485748696605172651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &3500917201502549062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11710,6 +12991,23 @@ MonoBehaviour:
   Max: 7
   Default: 0
   Exists: 1
+--- !u!114 &3631949379358319543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &3651894020819042964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11742,6 +13040,23 @@ MonoBehaviour:
   Name: Menu Heat
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3669568388600805757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &3690821358205112592
@@ -11794,7 +13109,7 @@ MonoBehaviour:
   guid: 84469f49dd64614181cc14f81ae2014d
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -11813,6 +13128,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Landing/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3750656710462602089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
   m_EditorClassIdentifier: 
   Name: Surface
   Min: 0
@@ -12045,6 +13377,30 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3947090214547528562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level sounds/Desert/Desert Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Level sounds/Desert/Desert Ambience
+  guid: 19cfd3175700d14c8d3008da60c2a129
+  Banks:
+  - {fileID: -5880444277194741509}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4717269430952680807}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 68000
 --- !u!114 &3949459781958635583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12097,6 +13453,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4007873551973947061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &4022715887319238980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12131,12 +13504,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1553870762447909332}
+  - {fileID: 2898303378920954486}
   MinDistance: 0
   MaxDistance: 0
   Length: 1980
@@ -12296,7 +13669,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12562,6 +13935,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &4575061147057172576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &4592208156031358154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12956,7 +14346,7 @@ MonoBehaviour:
   guid: 9f8c1da5d7289f4eb84c48d13e909e5a
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -12981,7 +14371,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -13091,6 +14481,23 @@ MonoBehaviour:
   Max: 7
   Default: 0
   Exists: 0
+--- !u!114 &5386720558266019849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Music/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &5406303711210768934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13125,7 +14532,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -13305,7 +14712,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -13313,6 +14720,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 6.4
   Length: 4299
+--- !u!114 &5667872905421822029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Forest Heat
+  m_EditorClassIdentifier: 
+  Name: Forest Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5677032001452629693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13345,6 +14769,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5694507666195847207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &5764257531060792816
@@ -13450,7 +14891,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -13819,6 +15260,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &6225285140741239885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &6292175973694278925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13834,6 +15292,23 @@ MonoBehaviour:
   Name: Shield Hold
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &6305827643960924561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
   Default: 0
   Exists: 0
 --- !u!114 &6309767719243181994
@@ -14146,6 +15621,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &6579843775594751963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &6581217860755597037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14384,7 +15876,7 @@ MonoBehaviour:
   guid: 7086e22a71b99d4b85d5b0a6ef0dc404
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14498,6 +15990,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6913812577639947278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 7
+  Default: 0
+  Exists: 0
 --- !u!114 &6932733618953792482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14721,7 +16230,7 @@ MonoBehaviour:
   guid: f73cf5caa2c1024cb6d5d791fe794f75
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -14883,6 +16392,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &7449168176392100178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 0
 --- !u!114 &7465655636386725885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14899,7 +16425,7 @@ MonoBehaviour:
   guid: 38c52b2c5326f842864b03119eee8885
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -15060,7 +16586,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -15099,6 +16625,23 @@ MonoBehaviour:
   m_Name: parameter:/Music manager/Boss Heat
   m_EditorClassIdentifier: 
   Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7784855918497127620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Desert Music/Desert Depth
+  m_EditorClassIdentifier: 
+  Name: Desert Depth
   Min: 0
   Max: 3
   Default: 0
@@ -15206,7 +16749,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -15334,6 +16877,40 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &8043668452103306161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &8052670231008184221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Boss Music/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &8088844060063998067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15368,7 +16945,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -15393,6 +16970,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &8200566065479103471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 9
+  Default: 0
+  Exists: 0
 --- !u!114 &8213143986598635937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15444,7 +17038,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4745206028678902122}
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -15486,6 +17080,23 @@ MonoBehaviour:
   lastModified: 637254047876346421
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8321833661287199298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Music Manager
+  m_EditorClassIdentifier: 
+  Name: Music Manager
+  Min: 0
+  Max: 7
+  Default: 0
   Exists: 0
 --- !u!114 &8327861834093529690
 MonoBehaviour:
@@ -15590,7 +17201,7 @@ MonoBehaviour:
   guid: 7803bac1856d1648a1c674d3d416532d
   Banks:
   - {fileID: 7769324210153295907}
-  - {fileID: -1151324399687025570}
+  - {fileID: -5880444277194741509}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -15630,6 +17241,23 @@ MonoBehaviour:
   Name: Forest Heat
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8532925362446894709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Move3/Shield Hold
+  m_EditorClassIdentifier: 
+  Name: Shield Hold
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &8533550558001668315
@@ -15892,6 +17520,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &8762507729960822174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Boss Heat
+  m_EditorClassIdentifier: 
+  Name: Boss Heat
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &8786577978863488347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15909,6 +17554,24 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &8800445915634865079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637561942391214379
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8820463904110504174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15923,11 +17586,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Audio/Wander FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637505636095667399
+  lastModified: 637561950260435174
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 4084
+    Value: 4330
   Exists: 1
 --- !u!114 &8838503413310727744
 MonoBehaviour:
@@ -16290,6 +17953,23 @@ MonoBehaviour:
   lastModified: 637236342553274011
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &9096252279367637883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music manager/Menu Heat
+  m_EditorClassIdentifier: 
+  Name: Menu Heat
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &9099665502119747211
 MonoBehaviour:

@@ -77,5 +77,6 @@ public class MusicManager : MonoBehaviour
     public void creditMusic(){ // set music to credit
         checkPlaybackState();
         musicManager.setParameterByName("Music Manager", 6);
+    
     }
 }
