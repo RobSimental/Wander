@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class LevelChanger : MonoBehaviour
+using Mirror;
+public class LevelChanger : NetworkBehaviour
 {
     public Animator animator;
     private int levelToLoad;
-
+    public GameObject playerObject;
     public void FadeToLevel (int code)
     {
         levelToLoad = code;
@@ -16,7 +16,7 @@ public class LevelChanger : MonoBehaviour
 
     public void OnFadeComplete ()
     {
-        if (levelToLoad == 0) { SceneManager.LoadScene("GameOver"); }
+        if (levelToLoad == 0) { SceneManager.LoadScene("GameOver");}
         else { SceneManager.LoadScene("Credits"); }
     }
 }

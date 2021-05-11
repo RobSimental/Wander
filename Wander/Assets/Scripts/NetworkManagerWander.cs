@@ -24,6 +24,7 @@ public class NetworkManagerWander : NetworkManager {
     //list of players in lobby
     public List<NetworkRoomPlayerWander> RoomPlayers { get; } = new List<NetworkRoomPlayerWander>();
     public List<GameObject> GamePlayers { get; } = new List<GameObject>();
+    private bool clientHost = false;
 
     public override void OnClientConnect(NetworkConnection conn)
     {
@@ -34,6 +35,11 @@ public class NetworkManagerWander : NetworkManager {
     {
         base.OnClientDisconnect(conn);
         OnClientDisconnected?.Invoke();
+        //send the server back to menu scene
+        if (RoomPlayers.Count <= 0 && GamePlayers.Count <= 0)
+        {
+            ServerChangeScene("Menus");
+        }
     }
     public override void OnServerConnect(NetworkConnection conn)
     {
@@ -46,24 +52,29 @@ public class NetworkManagerWander : NetworkManager {
         if(SceneManager.GetActiveScene().path != menuScene)
         {
             //remove to allow players to join active game
+            Debug.Log("On Server Connect failed");
             conn.Disconnect();
             return;
         }
     }
     public override void OnServerAddPlayer(NetworkConnection conn)
     {
-        if(SceneManager.GetActiveScene().path == menuScene)
-        {
-            Debug.Log("WE ARE NOW GOD");
-            bool isLeader = RoomPlayers.Count == 0;
-            NetworkRoomPlayerWander roomPlayerInstance = Instantiate(roomPlayerPrefab);
-            roomPlayerInstance.IsLeader = isLeader; //lets you tell a client if you are the leader
-            NetworkServer.AddPlayerForConnection(conn, roomPlayerInstance.gameObject);
-        }
-        else
-        {
-            Debug.Log("MENUS STRIKES BACK");
-        }
+        bool isLeader = RoomPlayers.Count == 0;
+        NetworkRoomPlayerWander roomPlayerInstance = Instantiate(roomPlayerPrefab);
+        roomPlayerInstance.IsLeader = isLeader; //lets you tell a client if you are the leader
+        NetworkServer.AddPlayerForConnection(conn, roomPlayerInstance.gameObject);
+        /*        if(SceneManager.GetActiveScene().path == menuScene)
+                {
+                    Debug.Log("WE ARE NOW GOD");
+                    bool isLeader = RoomPlayers.Count == 0;
+                    NetworkRoomPlayerWander roomPlayerInstance = Instantiate(roomPlayerPrefab);
+                    roomPlayerInstance.IsLeader = isLeader; //lets you tell a client if you are the leader
+                    NetworkServer.AddPlayerForConnection(conn, roomPlayerInstance.gameObject);
+                }
+                else
+                {
+                    Debug.Log("MENUS STRIKES BACK");
+                }*/
 
     }
 
@@ -100,41 +111,69 @@ public class NetworkManagerWander : NetworkManager {
     }
     public void StartGame()
     {
-        if(SceneManager.GetActiveScene().path == menuScene)
+        if (!IsReadyToStart()) { return; }
+        ServerChangeScene("Wander(LevelProto)");
+ /*       if (SceneManager.GetActiveScene().path == menuScene)
         {
             if (!IsReadyToStart()) { return; }
             ServerChangeScene("Wander(LevelProto)");
-        }
+        }*/
     }
+    public override void OnStartHost()
+    {
+        clientHost = true;
+        base.OnStartHost();
+    }
+
     public override void ServerChangeScene(string newSceneName)
     {
         //going from menu to game scene
-        if (SceneManager.GetActiveScene().path == menuScene && newSceneName.StartsWith("Wander"))
+        //SceneManager.GetActiveScene().path == menuScene && 
+        if (newSceneName.StartsWith("Wander"))
         {
-            Debug.Log(RoomPlayers.Count);
-            for (int i = RoomPlayers.Count-1; i>=0; i--)
+            Debug.Log("SCENE CHANGE CALLED: " + newSceneName);
+
+            //Has to be done in reverse order
+            for (int i = RoomPlayers.Count - 1; i >= 0; i--)
+                {
+                    GameObject gamePlayerPrefab;
+                    if (RoomPlayers[i].characterChoice == "Mage")
+                    {
+                        gamePlayerPrefab = Mage;
+                    }
+                    else if (RoomPlayers[i].characterChoice == "Warrior")
+                    {
+                        gamePlayerPrefab = Warrior;
+                    }
+                    else
+                    {
+                        gamePlayerPrefab = Archer;
+                    }
+                    Debug.Log("hello:" + RoomPlayers[i].characterChoice);
+                    var conn = RoomPlayers[i].connectionToClient;
+                    var gameplayerInstance = Instantiate(gamePlayerPrefab);
+                    Player p = gameplayerInstance.GetComponent<Player>();
+                    p.SetDisplayName((RoomPlayers[i].DisplayName));
+                    NetworkServer.Destroy(conn.identity.gameObject);
+                    NetworkServer.ReplacePlayerForConnection(conn, gameplayerInstance.gameObject);
+                    GamePlayers.Add(gameplayerInstance);
+                }
+            
+        }
+        //going from Game Scene to Menu Scene aka GAME OVER
+        //SceneManager.GetActiveScene().name.StartsWith("Wander") && 
+        if (newSceneName.StartsWith("Menu"))
+        {
+            Debug.Log("EVERYONE IS DEAD" + newSceneName);
+            RoomPlayers.Clear();
+            GamePlayers.Clear();
+            if (clientHost)
             {
-                GameObject gamePlayerPrefab;
-                if (RoomPlayers[i].characterChoice == "Mage")
-                {
-                    gamePlayerPrefab = Mage;
-                }
-                else if (RoomPlayers[i].characterChoice == "Warrior")
-                {
-                    gamePlayerPrefab = Warrior;
-                }
-                else
-                {
-                    gamePlayerPrefab = Archer;
-                }
-                Debug.Log("hello:"+ RoomPlayers[i].characterChoice);
-                var conn = RoomPlayers[i].connectionToClient;
-                var gameplayerInstance = Instantiate(gamePlayerPrefab);
-                //gameplayerInstance.SetDisplayName(RoomPlayers[i].DisplayName);
-                NetworkServer.Destroy(conn.identity.gameObject);
-                NetworkServer.ReplacePlayerForConnection(conn, gameplayerInstance.gameObject);
+                StopHost();
+                Debug.Log("hosting stopped");
             }
         }
+        Debug.Log("SCENE CHANGING ");
         base.ServerChangeScene(newSceneName);
     }
 

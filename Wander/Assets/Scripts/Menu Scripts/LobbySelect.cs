@@ -4,15 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-public class LobbySelect : MonoBehaviour
+using Mirror;
+public class LobbySelect : NetworkBehaviour
 {
-    [SerializeField] private NetworkManagerWander networkManager = null;
+    private NetworkManagerWander networkManager;
     [SerializeField] private InputField ipAddressInputField = null;
     public GameObject JoinPanel;
 
     private void OnEnable()
     {
         JoinPanel.SetActive(true);
+        networkManager = (NetworkManagerWander)NetworkManagerWander.singleton;
         NetworkManagerWander.OnClientConnected += HandleClientConnected;
         NetworkManagerWander.OnClientDisconnected += HandleClientDisconnected;
     }

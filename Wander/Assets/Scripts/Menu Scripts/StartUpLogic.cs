@@ -6,6 +6,8 @@ using PlayFab;
 public class StartUpLogic : MonoBehaviour
 {
     public GameObject LoginPanel;
+    public GameObject NetworkManagerWander;
+    public static NetworkManagerWander NMWander;
     void Start()
     {
         if (string.IsNullOrEmpty(PlayFabSettings.TitleId))
@@ -14,5 +16,6 @@ public class StartUpLogic : MonoBehaviour
             PlayFabSettings.TitleId = "23BBA";
         }
         LoginPanel.SetActive(true);
+        Instantiate(NetworkManagerWander);
     }
 }

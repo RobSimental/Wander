@@ -38,7 +38,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546363441769914248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.082, y: -5.772, z: 0}
+  m_LocalPosition: {x: 3.717, y: -6, z: 0}
   m_LocalScale: {x: 0.8828694, y: 0.8828694, z: 0.8828694}
   m_Children:
   - {fileID: 6972793937058838438}
@@ -178,6 +178,7 @@ MonoBehaviour:
   dying: 0
   player: {fileID: 0}
   levelChanger: {fileID: 0}
+  DisplayName: Loading...
 --- !u!114 &8926780428302399615
 MonoBehaviour:
   m_ObjectHideFlags: 0

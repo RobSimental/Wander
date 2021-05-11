@@ -23,11 +23,13 @@ public class Player : NetworkBehaviour
     public float maxStamina = 100;
     public float currentStamina;
     public StaminaBar staminaBar;
+
     public bool dying = false;
 
     public PlayerController player;
     public LevelChanger levelChanger;
 
+  
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -67,7 +69,7 @@ public class Player : NetworkBehaviour
                 regen = StartCoroutine(RegenStamina());
 
                 if (currentStamina <= 0)
-                {   
+                {
                     currentStamina = 0;
                     player.setTired(true);
                     Debug.Log("Out of stamina");
@@ -88,7 +90,8 @@ public class Player : NetworkBehaviour
         {
             dying = true;
             animator.SetTrigger("death");
-            levelChanger.FadeToLevel(0);
+            CheckIfEveryoneDead();
+            //levelChanger.FadeToLevel(0);
         }
     }
 
@@ -111,7 +114,7 @@ public class Player : NetworkBehaviour
         regen = null;
     }
 
-    public override void OnStartLocalPlayer(){
+    public override void OnStartLocalPlayer() {
         transform.Find("MusicTag").tag = "LocalPlayer";
     }
 
@@ -124,20 +127,44 @@ public class Player : NetworkBehaviour
             return room = NetworkManager.singleton as NetworkManagerWander;
         }
     }
-
-
     //New Networking Code
+    public void CheckIfEveryoneDead()
+    {
+        foreach (GameObject player in Room.GamePlayers)
+        {
+            Player p = player.GetComponent<Player>();
+            if (!p.dying)
+            {
+                Debug.Log("someone is alive");
+                return; //someone is still alive somehow
+            }
+        }
+        KillAll();
+    }
+    public void KillAll()
+    {
+        Debug.Log("everyone is set to die");
+        Room.ServerChangeScene("Menus");
+        foreach (GameObject player in Room.GamePlayers)
+        {
+            Player p = player.GetComponent<Player>();
+            p.connectionToClient.Disconnect();
+            NetworkServer.Destroy(player);
+        }
+    }
+
     [SyncVar]
     public string DisplayName = "Loading...";
     public override void OnStartClient()
     {
         DontDestroyOnLoad(this.gameObject);
-        Room.GamePlayers.Add(this.gameObject);
+        //Room.GamePlayers.Add(this.gameObject);
     }
     public override void OnNetworkDestroy()
     {
         Room.GamePlayers.Remove(this.gameObject);
     }
+
     [Server]
     public void SetDisplayName(string displayName)
     {

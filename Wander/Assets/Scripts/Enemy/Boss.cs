@@ -14,7 +14,7 @@ public class Boss : Enemy
     void Start() {
         GameObject GO = GameObject.Find("MusicManager");
         music = (MusicManager)GO.GetComponent<MusicManager>();
-        levelChanger = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
+        //levelChanger = GameObject.Find("LevelChanger").GetComponent<LevelChanger>();
 
         heatUpPoint = getHealth() / 2;
         laser1 = transform.Find("Laser1").GetComponent<BoxCollider2D>();
@@ -27,7 +27,7 @@ public class Boss : Enemy
         if (death && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f)
         {
             music.bossMusic(2);
-            levelChanger.FadeToLevel(1);
+            //levelChanger.FadeToLevel(1);
             Destroy(gameObject);
         }
 

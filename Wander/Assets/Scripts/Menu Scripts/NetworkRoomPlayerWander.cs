@@ -24,7 +24,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
         set
         {
             isLeader = value;
-            startGameButton.gameObject.SetActive(value);
+            //startGameButton.gameObject.SetActive(value);
         }
     }
     private NetworkManagerWander room;
@@ -88,7 +88,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
     }
     public void HandleReadyToStart(bool readyToStart)
     {
-        if (!isLeader) { return; }
+        //if (!isLeader) { return; }
         startGameButton.interactable = readyToStart;
     }
 
@@ -107,7 +107,7 @@ public class NetworkRoomPlayerWander : NetworkBehaviour
     public void CmdStartGame()
     {
         //only leader can start the game
-        if(Room.RoomPlayers[0].connectionToClient != connectionToClient) { return; }
+        //if(Room.RoomPlayers[0].connectionToClient != connectionToClient) { return; }
         Room.StartGame();
     }
     [Command]
