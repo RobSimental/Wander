@@ -7,6 +7,7 @@ public class EnemySpawner : NetworkBehaviour
     public GameObject batPrefab;
     public GameObject goblinPrefab;
     public GameObject bossPrefab;
+    public GameObject skeletonPrefab;
 
     // public int numOfEnemies;
 
@@ -82,6 +83,11 @@ public class EnemySpawner : NetworkBehaviour
         spawnPosition = new Vector2(12.12f, -6.24f);
         GameObject boss2 = (GameObject)Instantiate(bossPrefab, spawnPosition, spawnRotation);
         NetworkServer.Spawn(boss2);
+
+        spawnPosition = new Vector2(6.18f, -6.421f);
+        GameObject skel1 = (GameObject)Instantiate(skeletonPrefab, spawnPosition, spawnRotation);
+        NetworkServer.Spawn(skel1);
+
 
     }
 }

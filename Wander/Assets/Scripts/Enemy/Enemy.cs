@@ -43,7 +43,7 @@ public class Enemy : NetworkBehaviour
             defense = 3;
             attackCoolDown = 3f;
 
-        }/*
+        }
         else if (GameObject.FindGameObjectWithTag("Mushroom") != null) {
             health = maxHealth = 75;
             attack = 40;
@@ -59,7 +59,6 @@ public class Enemy : NetworkBehaviour
             attackCoolDown = 5f;
 
         }
-        */
         hitbox = transform.Find("BasicAttack").GetComponent<BoxCollider2D>();
         isHit = death = attacking = hitbox.enabled = false;
     }

@@ -37,6 +37,11 @@ public class EnemyController : NetworkBehaviour
             moveSpeed = 2f;
             jumpVelocity = fallMultiplier = lowJumpMultiplier = 2f;
         }
+        else if (type == "Skeleton")
+        {
+            moveSpeed = 2f;
+            jumpVelocity = fallMultiplier = lowJumpMultiplier = 2f;
+        }
         else if (type == "Boss")
         {
             moveSpeed = 1.5f;
