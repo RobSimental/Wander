@@ -16,7 +16,7 @@ MonoBehaviour:
   HasSourceProject: 1
   HasPlatforms: 1
   sourceProjectPath: Assets/Audio/Wander FMOD/Wander Audio.fspro
-  sourceBankPath: Assets\Audio\Wander FMOD\Build
+  sourceBankPath: Assets/Audio/Wander FMOD/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
